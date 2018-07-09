@@ -399,7 +399,7 @@ MonoBehaviour:
             value: {fileID: 0}
           StringParameter:
             useVariable: 1
-            name: String/LanguageSelect
+            name: String/Language_Select
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -864,7 +864,7 @@ MonoBehaviour:
           networkSync: 0
           value: Language_Select
         - useVariable: 1
-          name: String/LanguageSelect
+          name: String/Language_Select
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -930,6 +930,12 @@ MonoBehaviour:
       boolVariables: []
       stringVariables:
       - useVariable: 1
+        name: String/Language_Select
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 
+      - useVariable: 1
         name: String/Public
         tooltip: 
         showInInspector: 0
@@ -954,7 +960,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 0000000000000000
+      variableCategoryIDs: 000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 1
