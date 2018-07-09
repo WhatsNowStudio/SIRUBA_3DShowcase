@@ -643,18 +643,18 @@ MonoBehaviour:
       isGlobal: 0
     - name: Process
       isSystemEvent: 0
-      isGlobal: 0
+      isGlobal: 1
     - name: Process_Done
       isSystemEvent: 0
-      isGlobal: 0
+      isGlobal: 1
     - name: Process_Fail
       isSystemEvent: 0
-      isGlobal: 0
+      isGlobal: 1
     globalTransitions:
     - fsmEvent:
         name: Process
         isSystemEvent: 0
-        isGlobal: 0
+        isGlobal: 1
       toState: "\u63A5\u6536\u8CC7\u8A0A"
       linkStyle: 0
       linkConstraint: 0

@@ -1963,10 +1963,10 @@ MonoBehaviour:
       isGlobal: 0
     - name: Process
       isSystemEvent: 0
-      isGlobal: 0
+      isGlobal: 1
     - name: Process2
       isSystemEvent: 0
-      isGlobal: 0
+      isGlobal: 1
     - name: Rest
       isSystemEvent: 0
       isGlobal: 0
@@ -4087,7 +4087,7 @@ MonoBehaviour:
       isGlobal: 0
     - name: Process
       isSystemEvent: 0
-      isGlobal: 0
+      isGlobal: 1
     - name: Rest
       isSystemEvent: 0
       isGlobal: 0
@@ -4101,7 +4101,7 @@ MonoBehaviour:
     - fsmEvent:
         name: Process
         isSystemEvent: 0
-        isGlobal: 0
+        isGlobal: 1
       toState: "\u65CB\u8F49"
       linkStyle: 0
       linkConstraint: 0

@@ -603,15 +603,15 @@ MonoBehaviour:
       isGlobal: 0
     - name: Process
       isSystemEvent: 0
-      isGlobal: 0
+      isGlobal: 1
     - name: Process_Done
       isSystemEvent: 0
-      isGlobal: 0
+      isGlobal: 1
     globalTransitions:
     - fsmEvent:
         name: Process_Done
         isSystemEvent: 0
-        isGlobal: 0
+        isGlobal: 1
       toState: "\u8655\u7406\u5B8C\u6210"
       linkStyle: 0
       linkConstraint: 0

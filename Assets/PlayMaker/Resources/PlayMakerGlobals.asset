@@ -42,4 +42,9 @@ MonoBehaviour:
     categories:
     - 
     variableCategoryIDs: 0000000000000000
-  events: []
+  events:
+  - Process
+  - Process2
+  - Process_Done
+  - Process_Fail
+  - Click
