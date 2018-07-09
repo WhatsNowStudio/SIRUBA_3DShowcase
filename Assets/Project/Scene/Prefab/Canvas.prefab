@@ -107,6 +107,7 @@ GameObject:
   - component: {fileID: 222999517649869960}
   - component: {fileID: 114631277767581394}
   - component: {fileID: 114482525349354760}
+  - component: {fileID: 114100910519484764}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -142,6 +143,7 @@ GameObject:
   - component: {fileID: 222136545879746378}
   - component: {fileID: 114289581179513530}
   - component: {fileID: 114857665560309100}
+  - component: {fileID: 114003527874025876}
   m_Layer: 5
   m_Name: Content
   m_TagString: Untagged
@@ -340,7 +342,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1272254150458998
 GameObject:
   m_ObjectHideFlags: 1
@@ -525,6 +527,7 @@ GameObject:
   - component: {fileID: 222223957794270772}
   - component: {fileID: 114250353336833420}
   - component: {fileID: 114219843075996304}
+  - component: {fileID: 114479300352038172}
   m_Layer: 5
   m_Name: Content
   m_TagString: Untagged
@@ -594,6 +597,7 @@ GameObject:
   - component: {fileID: 222418303234507450}
   - component: {fileID: 114722699342232916}
   - component: {fileID: 114581405755445754}
+  - component: {fileID: 114917128288392642}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -699,6 +703,7 @@ GameObject:
   - component: {fileID: 222600205710457548}
   - component: {fileID: 114228141875059134}
   - component: {fileID: 114362933744730280}
+  - component: {fileID: 114775674581122126}
   m_Layer: 5
   m_Name: Content
   m_TagString: Untagged
@@ -799,6 +804,7 @@ GameObject:
   - component: {fileID: 224717949115817812}
   - component: {fileID: 222916306242320698}
   - component: {fileID: 114416466332334052}
+  - component: {fileID: 114587730002691270}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -1005,6 +1011,7 @@ GameObject:
   - component: {fileID: 222345105838085406}
   - component: {fileID: 114511890697493496}
   - component: {fileID: 114365050143907544}
+  - component: {fileID: 114753209916737710}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -1360,6 +1367,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114003527874025876
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1070640769839960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0d2eafce53b846b587a02a5ec384ea8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ContentID: Instructions_3_Content
 --- !u!114 &114026563242468718
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2374,6 +2393,18 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114100910519484764
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1055413235228090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0d2eafce53b846b587a02a5ec384ea8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ContentID: Instructions_3_Title
 --- !u!114 &114132080841145778
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3958,6 +3989,18 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114479300352038172
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1387554751027260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0d2eafce53b846b587a02a5ec384ea8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ContentID: Instructions_1_Content
 --- !u!114 &114482525349354760
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4112,6 +4155,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 2
   m_VerticalFit: 2
+--- !u!114 &114587730002691270
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1678272568238092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0d2eafce53b846b587a02a5ec384ea8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ContentID: Button_Language
 --- !u!114 &114597860622958608
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4906,6 +4961,18 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114753209916737710
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1806092030209466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0d2eafce53b846b587a02a5ec384ea8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ContentID: Instructions_2_Title
 --- !u!114 &114760876579363274
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4974,6 +5041,18 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114775674581122126
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1520406494943948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0d2eafce53b846b587a02a5ec384ea8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ContentID: Instructions_2_Content
 --- !u!114 &114798935329499936
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5418,6 +5497,18 @@ MonoBehaviour:
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 11400000, guid: f286de94ec782db42aedefb3655c4522, type: 2}
   eventHandlerComponentsAdded: 1
+--- !u!114 &114917128288392642
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1459301379920974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0d2eafce53b846b587a02a5ec384ea8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ContentID: Instructions_1_Title
 --- !u!114 &114929116095751732
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5433,9 +5524,9 @@ MonoBehaviour:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
     name: Language
-    startState: Start
+    startState: State 1
     states:
-    - name: Start
+    - name: State 1
       description: 
       colorIndex: 0
       position:
@@ -5443,28 +5534,18 @@ MonoBehaviour:
         x: 50
         y: 100
         width: 100
-        height: 32
+        height: 16
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: Go
-          isSystemEvent: 0
-          isGlobal: 0
-        toState: "\u53D6\u5F97\u8A9E\u8A00\u5B58\u6A94"
-        linkStyle: 0
-        linkConstraint: 0
-        colorIndex: 0
+      transitions: []
       actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.NextFrameEvent
-        customNames:
-        - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 88611604
+        actionNames: []
+        customNames: []
+        actionEnabled: 
+        actionIsOpen: 
+        actionStartIndex: 
+        actionHashCodes: 
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -5487,100 +5568,29 @@ MonoBehaviour:
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
-        stringParams:
-        - Go
+        stringParams: []
         byteData: 
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 17000000
-        paramName:
-        - sendEvent
-        paramDataPos: 00000000
-        paramByteDataSize: 00000000
-    - name: "\u53D6\u5F97\u8A9E\u8A00\u5B58\u6A94"
-      description: 
-      colorIndex: 0
-      position:
-        serializedVersion: 2
-        x: 221
-        y: 117
-        width: 102
-        height: 16
-      isBreakpoint: 0
-      isSequence: 0
-      hideUnused: 0
-      transitions: []
-      actionData:
-        actionNames:
-        - HutongGames.PlayMaker.Actions.PlayerPrefsGetString
-        customNames:
-        - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 1898da00
-        unityObjectParams: []
-        fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
-        animationCurveParams: []
-        functionCallParams: []
-        fsmTemplateControlParams: []
-        fsmEventTargetParams: []
-        fsmPropertyParams: []
-        layoutOptionParams: []
-        fsmStringParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 
-        - useVariable: 1
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 
-        fsmObjectParams: []
-        fsmVarParams: []
-        fsmArrayParams: []
-        fsmEnumParams: []
-        fsmFloatParams: []
-        fsmIntParams: []
-        fsmBoolParams: []
-        fsmVector2Params: []
-        fsmVector3Params: []
-        fsmColorParams: []
-        fsmRectParams: []
-        fsmQuaternionParams: []
-        stringParams: []
-        byteData: 
-        arrayParamSizes: 0100000001000000
-        arrayParamTypes:
-        - HutongGames.PlayMaker.FsmString
-        - HutongGames.PlayMaker.FsmString
-        customTypeSizes: 
-        customTypeNames: []
-        paramDataType: 0c000000120000000c00000012000000
-        paramName:
-        - keys
-        - 
-        - variables
-        - 
-        paramDataPos: 00000000000000000100000001000000
-        paramByteDataSize: 00000000000000000000000000000000
-    events:
-    - name: Go
-      isSystemEvent: 0
-      isGlobal: 0
+        paramDataType: 
+        paramName: []
+        paramDataPos: 
+        paramByteDataSize: 
+    events: []
     globalTransitions: []
     variables:
       floatVariables: []
       intVariables: []
       boolVariables: []
-      stringVariables: []
+      stringVariables:
+      - useVariable: 1
+        name: String/Public
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 
       vector2Variables: []
       vector3Variables: []
       colorVariables: []
@@ -5594,7 +5604,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 
+      variableCategoryIDs: 00000000
     description: 
     docUrl: 
     showStateLabel: 0
@@ -5604,7 +5614,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -5637,8 +5647,8 @@ MonoBehaviour:
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
     handleAnimatorIK: 0
-  fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  fsmTemplate: {fileID: 11400000, guid: fa7ba4362a6296048a48966b335e27ad, type: 2}
+  eventHandlerComponentsAdded: 1
 --- !u!114 &114931715158526498
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7372,7 +7382,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000009147722, y: 0.000060236554}
+  m_AnchoredPosition: {x: -0.000009147722, y: 0.0000019820725}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!224 &224717949115817812

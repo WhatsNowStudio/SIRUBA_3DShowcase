@@ -689,6 +689,7 @@ namespace HutongGames.PlayMaker
   
         public static string GetValueLabel(INamedVariable variable)
         {
+#if UNITY_EDITOR
             if (variable == null) return "[null]";
             if (variable.IsNone) return "[none]";
             if (variable.UseVariable) return variable.Name;
@@ -696,16 +697,15 @@ namespace HutongGames.PlayMaker
             if (rawValue == null) return "null";
             if (rawValue is string) return "\"" + rawValue + "\"";
             if (rawValue is Array) return "Array";
-#if NETFX_CORE
-            if (rawValue.GetType().IsValueType()) return rawValue.ToString();
-#else
             if (rawValue.GetType().IsValueType) return rawValue.ToString();
-#endif
             var label = rawValue.ToString();
             var classIndex = label.IndexOf('(');
             if (classIndex > 0)
                 return label.Substring(0, label.IndexOf('('));
             return label;
+#else
+            return "";
+#endif
         }
 
         public static string GetValueLabel(Fsm fsm, FsmOwnerDefault ownerDefault)
