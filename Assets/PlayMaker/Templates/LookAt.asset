@@ -43,7 +43,7 @@ MonoBehaviour:
         unityObjectParams: []
         fsmGameObjectParams:
         - useVariable: 1
-          name: GObj/Camera
+          name: GObj/MainCamera/Camera
           tooltip: 
           showInInspector: 0
           networkSync: 0

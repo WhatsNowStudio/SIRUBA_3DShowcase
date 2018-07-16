@@ -35,7 +35,13 @@ MonoBehaviour:
       networkSync: 0
       value: {fileID: 0}
     - useVariable: 1
-      name: GObj/Camera
+      name: GObj/MainCamera/All
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: GObj/MainCamera/Camera
       tooltip: 
       showInInspector: 0
       networkSync: 0
@@ -53,7 +59,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000000000000000000000000000
+    variableCategoryIDs: 0000000000000000000000000000000000000000
   events:
   - Process
   - Process2
@@ -64,3 +70,8 @@ MonoBehaviour:
   - Up
   - GetData
   - GetData_Done
+  - AlignCamera_1
+  - AlignCamera_0
+  - AlignCamera_0_Done
+  - Creat3DButton_Done
+  - Reset
