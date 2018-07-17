@@ -70,8 +70,11 @@ MonoBehaviour:
   - Up
   - GetData
   - GetData_Done
-  - AlignCamera_1
   - AlignCamera_0
   - AlignCamera_0_Done
   - Creat3DButton_Done
   - Reset
+  - AlignCamera_1_Done
+  - AlignCamera_1
+  - AlignCamera_2
+  - AlignCamera_2_Done
