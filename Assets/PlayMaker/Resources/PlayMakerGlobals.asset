@@ -78,3 +78,5 @@ MonoBehaviour:
   - AlignCamera_1
   - AlignCamera_2
   - AlignCamera_2_Done
+  - On
+  - Off
