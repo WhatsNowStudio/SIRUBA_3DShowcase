@@ -140,8 +140,8 @@ TextureImporter:
       name: BG_1
       rect:
         serializedVersion: 2
-        x: 381
-        y: 987
+        x: 101
+        y: 756
         width: 1460
         height: 355
       alignment: 0
