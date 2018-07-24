@@ -40,9 +40,9 @@ MonoBehaviour:
         stationaryBlending: 0.99
         motionBlending: 0.56
   ambientOcclusion:
-    m_Enabled: 0
+    m_Enabled: 1
     m_Settings:
-      intensity: 0.81
+      intensity: 0.88
       radius: 0.23
       sampleCount: 16
       downsampling: 0
@@ -81,7 +81,7 @@ MonoBehaviour:
     m_Settings:
       shutterAngle: 270
       sampleCount: 10
-      frameBlending: 0
+      frameBlending: 0.72
   eyeAdaptation:
     m_Enabled: 0
     m_Settings:
