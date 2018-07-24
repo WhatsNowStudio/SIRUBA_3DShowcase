@@ -4018,7 +4018,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 6e04220fee8b71d48980eb3b4dd6a12e, type: 2}
-  - {fileID: 2100000, guid: 4fcd1f6061969ac46abd9c2d525b4066, type: 3}
+  - {fileID: 2100000, guid: ffc932b29a8fc5e459b93813f9527aa0, type: 2}
   - {fileID: 2100000, guid: 32c7ace9f315b5e498b7caab24a656e9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -5532,7 +5532,7 @@ MeshRenderer:
   m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 6e04220fee8b71d48980eb3b4dd6a12e, type: 2}
-  - {fileID: 2100000, guid: 4fcd1f6061969ac46abd9c2d525b4066, type: 3}
+  - {fileID: 2100000, guid: ffc932b29a8fc5e459b93813f9527aa0, type: 2}
   - {fileID: 2100000, guid: 32c7ace9f315b5e498b7caab24a656e9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -6057,7 +6057,7 @@ ReflectionProbe:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IntensityMultiplier: 2.4
+  m_IntensityMultiplier: 2
   m_BlendDistance: 1
   m_HDR: 1
   m_BoxProjection: 0
