@@ -34,6 +34,20 @@ ModelImporter:
     100056: Storage_Plate_Base_F
     100058: Storage_Plate_High
     100060: Storage_Plate_Low
+    100062: Base_Screw
+    100064: Base_ServoMotor
+    100066: Base_ServoMotor_Shell
+    100068: Base_Slider
+    100070: Base_Track
+    100072: Chuck
+    100074: Fixed
+    100076: IndexingPlate
+    100078: Jaws
+    100080: Nitrogen
+    100082: Nozzle
+    100084: Oil_Pipe
+    100086: SpindleMotor
+    100088: SpindleMotor_Shell
     400000: Arm_1
     400002: Arm_2
     400004: Arm_3
@@ -65,6 +79,20 @@ ModelImporter:
     400056: Storage_Plate_Base_F
     400058: Storage_Plate_High
     400060: Storage_Plate_Low
+    400062: Base_Screw
+    400064: Base_ServoMotor
+    400066: Base_ServoMotor_Shell
+    400068: Base_Slider
+    400070: Base_Track
+    400072: Chuck
+    400074: Fixed
+    400076: IndexingPlate
+    400078: Jaws
+    400080: Nitrogen
+    400082: Nozzle
+    400084: Oil_Pipe
+    400086: SpindleMotor
+    400088: SpindleMotor_Shell
     2100000: 'Material #280'
     2300000: Arm_1
     2300002: Arm_2
@@ -96,6 +124,20 @@ ModelImporter:
     2300054: Storage_Plate_Base_F
     2300056: Storage_Plate_High
     2300058: Storage_Plate_Low
+    2300060: Base_Screw
+    2300062: Base_ServoMotor
+    2300064: Base_ServoMotor_Shell
+    2300066: Base_Slider
+    2300068: Base_Track
+    2300070: Chuck
+    2300072: Fixed
+    2300074: IndexingPlate
+    2300076: Jaws
+    2300078: Nitrogen
+    2300080: Nozzle
+    2300082: Oil_Pipe
+    2300084: SpindleMotor
+    2300086: SpindleMotor_Shell
     3300000: Arm_1
     3300002: Arm_2
     3300004: Arm_3
@@ -126,6 +168,20 @@ ModelImporter:
     3300054: Storage_Plate_Base_F
     3300056: Storage_Plate_High
     3300058: Storage_Plate_Low
+    3300060: Base_Screw
+    3300062: Base_ServoMotor
+    3300064: Base_ServoMotor_Shell
+    3300066: Base_Slider
+    3300068: Base_Track
+    3300070: Chuck
+    3300072: Fixed
+    3300074: IndexingPlate
+    3300076: Jaws
+    3300078: Nitrogen
+    3300080: Nozzle
+    3300082: Oil_Pipe
+    3300084: SpindleMotor
+    3300086: SpindleMotor_Shell
     4300000: Storage_Base
     4300002: Storage_Plate_Base_F
     4300004: Storage_Plate_High
@@ -156,6 +212,20 @@ ModelImporter:
     4300054: ClipB
     4300056: Clip
     4300058: Arm_6
+    4300060: Fixed
+    4300062: IndexingPlate
+    4300064: Oil_Pipe
+    4300066: Nozzle
+    4300068: Jaws
+    4300070: Chuck
+    4300072: Base_Slider
+    4300074: Base_Track
+    4300076: SpindleMotor
+    4300078: SpindleMotor_Shell
+    4300080: Nitrogen
+    4300082: Base_ServoMotor
+    4300084: Base_ServoMotor_Shell
+    4300086: Base_Screw
   externalObjects: {}
   materials:
     importMaterials: 1
