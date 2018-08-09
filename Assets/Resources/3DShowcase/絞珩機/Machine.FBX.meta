@@ -48,6 +48,15 @@ ModelImporter:
     100084: Oil_Pipe
     100086: SpindleMotor
     100088: SpindleMotor_Shell
+    100090: Arm_1_Old
+    100092: Base_KY
+    100094: Shell_Control_Plane
+    100096: Shell_Door_Left_LNew
+    100098: Shell_Door_Left_RNew
+    100100: Shell_Logo
+    100102: Shell_Plane
+    100104: Shell_Door_Left
+    100106: Shell_Door_Left 1
     400000: Arm_1
     400002: Arm_2
     400004: Arm_3
@@ -93,7 +102,25 @@ ModelImporter:
     400084: Oil_Pipe
     400086: SpindleMotor
     400088: SpindleMotor_Shell
+    400090: Arm_1_Old
+    400092: Base_KY
+    400094: Shell_Control_Plane
+    400096: Shell_Door_Left_LNew
+    400098: Shell_Door_Left_RNew
+    400100: Shell_Logo
+    400102: Shell_Plane
+    400104: Shell_Door_Left
+    400106: Shell_Door_Left 1
     2100000: 'Material #280'
+    2100002: Silver
+    2100004: Blue
+    2100006: Green
+    2100008: Gray
+    2100010: yellow
+    2100012: White
+    2100014: Red
+    2100016: Black
+    2100018: Metal
     2300000: Arm_1
     2300002: Arm_2
     2300004: Arm_3
@@ -138,6 +165,15 @@ ModelImporter:
     2300082: Oil_Pipe
     2300084: SpindleMotor
     2300086: SpindleMotor_Shell
+    2300088: Arm_1_Old
+    2300090: Base_KY
+    2300092: Shell_Control_Plane
+    2300094: Shell_Door_Left_LNew
+    2300096: Shell_Door_Left_RNew
+    2300098: Shell_Logo
+    2300100: Shell_Plane
+    2300102: Shell_Door_Left
+    2300104: Shell_Door_Left 1
     3300000: Arm_1
     3300002: Arm_2
     3300004: Arm_3
@@ -182,6 +218,15 @@ ModelImporter:
     3300082: Oil_Pipe
     3300084: SpindleMotor
     3300086: SpindleMotor_Shell
+    3300088: Arm_1_Old
+    3300090: Base_KY
+    3300092: Shell_Control_Plane
+    3300094: Shell_Door_Left_LNew
+    3300096: Shell_Door_Left_RNew
+    3300098: Shell_Logo
+    3300100: Shell_Plane
+    3300102: Shell_Door_Left
+    3300104: Shell_Door_Left 1
     4300000: Storage_Base
     4300002: Storage_Plate_Base_F
     4300004: Storage_Plate_High
@@ -226,6 +271,15 @@ ModelImporter:
     4300082: Base_ServoMotor
     4300084: Base_ServoMotor_Shell
     4300086: Base_Screw
+    4300088: Base_KY
+    4300090: Shell_Door_Left_LNew
+    4300092: Shell_Door_Left_RNew
+    4300094: Shell_Control_Plane
+    4300096: Shell_Plane
+    4300098: Shell_Logo
+    4300100: Arm_1_Old
+    4300102: Shell_Door_Left
+    4300104: Shell_Door_Left
   externalObjects: {}
   materials:
     importMaterials: 1
