@@ -57,6 +57,7 @@ ModelImporter:
     100102: Shell_Plane
     100104: Shell_Door_Left
     100106: Shell_Door_Left 1
+    100108: Oil
     400000: Arm_1
     400002: Arm_2
     400004: Arm_3
@@ -111,6 +112,7 @@ ModelImporter:
     400102: Shell_Plane
     400104: Shell_Door_Left
     400106: Shell_Door_Left 1
+    400108: Oil
     2100000: 'Material #280'
     2100002: Silver
     2100004: Blue
@@ -174,6 +176,7 @@ ModelImporter:
     2300100: Shell_Plane
     2300102: Shell_Door_Left
     2300104: Shell_Door_Left 1
+    2300106: Oil
     3300000: Arm_1
     3300002: Arm_2
     3300004: Arm_3
@@ -227,6 +230,7 @@ ModelImporter:
     3300100: Shell_Plane
     3300102: Shell_Door_Left
     3300104: Shell_Door_Left 1
+    3300106: Oil
     4300000: Storage_Base
     4300002: Storage_Plate_Base_F
     4300004: Storage_Plate_High
@@ -280,6 +284,7 @@ ModelImporter:
     4300100: Arm_1_Old
     4300102: Shell_Door_Left
     4300104: Shell_Door_Left
+    4300106: Oil
   externalObjects: {}
   materials:
     importMaterials: 1
