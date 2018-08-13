@@ -58,6 +58,11 @@ ModelImporter:
     100104: Shell_Door_Left
     100106: Shell_Door_Left 1
     100108: Oil
+    100110: Base_TrackNew
+    100112: NitrogenPlane
+    100114: OilDashboard
+    100116: OilDashboard001
+    100118: SinglePassLogo
     400000: Arm_1
     400002: Arm_2
     400004: Arm_3
@@ -113,6 +118,11 @@ ModelImporter:
     400104: Shell_Door_Left
     400106: Shell_Door_Left 1
     400108: Oil
+    400110: Base_TrackNew
+    400112: NitrogenPlane
+    400114: OilDashboard
+    400116: OilDashboard001
+    400118: SinglePassLogo
     2100000: 'Material #280'
     2100002: Silver
     2100004: Blue
@@ -123,6 +133,7 @@ ModelImporter:
     2100014: Red
     2100016: Black
     2100018: Metal
+    2100020: 24 - Default
     2300000: Arm_1
     2300002: Arm_2
     2300004: Arm_3
@@ -177,6 +188,11 @@ ModelImporter:
     2300102: Shell_Door_Left
     2300104: Shell_Door_Left 1
     2300106: Oil
+    2300108: Base_TrackNew
+    2300110: NitrogenPlane
+    2300112: OilDashboard
+    2300114: OilDashboard001
+    2300116: SinglePassLogo
     3300000: Arm_1
     3300002: Arm_2
     3300004: Arm_3
@@ -231,6 +247,11 @@ ModelImporter:
     3300102: Shell_Door_Left
     3300104: Shell_Door_Left 1
     3300106: Oil
+    3300108: Base_TrackNew
+    3300110: NitrogenPlane
+    3300112: OilDashboard
+    3300114: OilDashboard001
+    3300116: SinglePassLogo
     4300000: Storage_Base
     4300002: Storage_Plate_Base_F
     4300004: Storage_Plate_High
@@ -285,6 +306,11 @@ ModelImporter:
     4300102: Shell_Door_Left
     4300104: Shell_Door_Left
     4300106: Oil
+    4300108: Base_TrackNew
+    4300110: SinglePassLogo
+    4300112: OilDashboard
+    4300114: OilDashboard001
+    4300116: NitrogenPlane
   externalObjects: {}
   materials:
     importMaterials: 1
