@@ -5784,8 +5784,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 765.85156
-        y: 367.04688
+        x: 772.85156
+        y: 398.04688
         width: 100
         height: 32
       isBreakpoint: 0
@@ -6614,8 +6614,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 924.85156
-        y: 382.04688
+        x: 957.85156
+        y: 415.04688
         width: 100
         height: 16
       isBreakpoint: 0
@@ -7515,8 +7515,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 761
-        y: 451
+        x: 769
+        y: 485
         width: 100
         height: 16
       isBreakpoint: 0
@@ -7644,6 +7644,9 @@ MonoBehaviour:
     - name: Done
       isSystemEvent: 0
       isGlobal: 0
+    - name: GoDefault
+      isSystemEvent: 0
+      isGlobal: 1
     - name: Process
       isSystemEvent: 0
       isGlobal: 1
@@ -7689,6 +7692,14 @@ MonoBehaviour:
         isSystemEvent: 0
         isGlobal: 1
       toState: "\u8A2D\u5B9A\u72C0\u614B---"
+      linkStyle: 0
+      linkConstraint: 0
+      colorIndex: 0
+    - fsmEvent:
+        name: GoDefault
+        isSystemEvent: 0
+        isGlobal: 1
+      toState: "\u56DE\u6B63"
       linkStyle: 0
       linkConstraint: 0
       colorIndex: 0
