@@ -68,6 +68,15 @@ ModelImporter:
     100124: Line002
     100126: Line003
     100128: Workpiece
+    100130: Base_SpindleMulti-axis
+    100132: BaseArmBase
+    100134: BaseBottom
+    100136: BaseColumn
+    100138: BasePedal
+    100140: BaseRevolvedPlate
+    100142: BaseTopCylinder
+    100144: BaseWindShield
+    100146: NitrogenBase
     400000: Arm_1
     400002: Arm_2
     400004: Arm_3
@@ -133,6 +142,15 @@ ModelImporter:
     400124: Line002
     400126: Line003
     400128: Workpiece
+    400130: Base_SpindleMulti-axis
+    400132: BaseArmBase
+    400134: BaseBottom
+    400136: BaseColumn
+    400138: BasePedal
+    400140: BaseRevolvedPlate
+    400142: BaseTopCylinder
+    400144: BaseWindShield
+    400146: NitrogenBase
     2100000: 'Material #280'
     2100002: Silver
     2100004: Blue
@@ -208,6 +226,15 @@ ModelImporter:
     2300122: Line002
     2300124: Line003
     2300126: Workpiece
+    2300128: Base_SpindleMulti-axis
+    2300130: BaseArmBase
+    2300132: BaseBottom
+    2300134: BaseColumn
+    2300136: BasePedal
+    2300138: BaseRevolvedPlate
+    2300140: BaseTopCylinder
+    2300142: BaseWindShield
+    2300144: NitrogenBase
     3300000: Arm_1
     3300002: Arm_2
     3300004: Arm_3
@@ -272,6 +299,15 @@ ModelImporter:
     3300122: Line002
     3300124: Line003
     3300126: Workpiece
+    3300128: Base_SpindleMulti-axis
+    3300130: BaseArmBase
+    3300132: BaseBottom
+    3300134: BaseColumn
+    3300136: BasePedal
+    3300138: BaseRevolvedPlate
+    3300140: BaseTopCylinder
+    3300142: BaseWindShield
+    3300144: NitrogenBase
     4300000: Storage_Base
     4300002: Storage_Plate_Base_F
     4300004: Storage_Plate_High
@@ -336,6 +372,15 @@ ModelImporter:
     4300122: ClipB001
     4300124: ClipB002
     4300126: Line003
+    4300128: BaseColumn
+    4300130: Base_SpindleMulti-axis
+    4300132: BaseBottom
+    4300134: BasePedal
+    4300136: BaseWindShield
+    4300138: BaseTopCylinder
+    4300140: BaseRevolvedPlate
+    4300142: BaseArmBase
+    4300144: NitrogenBase
   externalObjects: {}
   materials:
     importMaterials: 1
