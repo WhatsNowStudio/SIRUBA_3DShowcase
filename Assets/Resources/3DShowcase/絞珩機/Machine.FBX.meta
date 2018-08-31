@@ -77,6 +77,7 @@ ModelImporter:
     100142: BaseTopCylinder
     100144: BaseWindShield
     100146: NitrogenBase
+    100148: Glow
     400000: Arm_1
     400002: Arm_2
     400004: Arm_3
@@ -151,6 +152,7 @@ ModelImporter:
     400142: BaseTopCylinder
     400144: BaseWindShield
     400146: NitrogenBase
+    400148: Glow
     2100000: 'Material #280'
     2100002: Silver
     2100004: Blue
@@ -162,6 +164,7 @@ ModelImporter:
     2100016: Black
     2100018: Metal
     2100020: 24 - Default
+    2100022: No Name
     2300000: Arm_1
     2300002: Arm_2
     2300004: Arm_3
@@ -235,6 +238,7 @@ ModelImporter:
     2300140: BaseTopCylinder
     2300142: BaseWindShield
     2300144: NitrogenBase
+    2300146: Glow
     3300000: Arm_1
     3300002: Arm_2
     3300004: Arm_3
@@ -308,6 +312,7 @@ ModelImporter:
     3300140: BaseTopCylinder
     3300142: BaseWindShield
     3300144: NitrogenBase
+    3300146: Glow
     4300000: Storage_Base
     4300002: Storage_Plate_Base_F
     4300004: Storage_Plate_High
@@ -381,6 +386,7 @@ ModelImporter:
     4300140: BaseRevolvedPlate
     4300142: BaseArmBase
     4300144: NitrogenBase
+    4300146: Glow
   externalObjects: {}
   materials:
     importMaterials: 1
