@@ -78,6 +78,19 @@ ModelImporter:
     100144: BaseWindShield
     100146: NitrogenBase
     100148: Glow
+    100150: Arm_4_Sticker
+    100152: CCD
+    100154: DisplayStand
+    100156: Object001
+    100158: Object002
+    100160: Rectangle001
+    100162: "\u6C34\u7BB1Alpha"
+    100164: "\u6C34\u7BB1\u4F9B\u6CB9\u7D44"
+    100166: "\u914D\u96FB\u7BB1\u5371\u96AA\u8B66\u544A\u8CBC\u7D19"
+    100168: "\u96FB\u6AC3alpha\u9762\u677F"
+    100170: ElectricCabinetAlpha
+    100172: NitrogenSticker
+    100174: WaterTankSticker
     400000: Arm_1
     400002: Arm_2
     400004: Arm_3
@@ -153,6 +166,19 @@ ModelImporter:
     400144: BaseWindShield
     400146: NitrogenBase
     400148: Glow
+    400150: Arm_4_Sticker
+    400152: CCD
+    400154: DisplayStand
+    400156: Object001
+    400158: Object002
+    400160: Rectangle001
+    400162: "\u6C34\u7BB1Alpha"
+    400164: "\u6C34\u7BB1\u4F9B\u6CB9\u7D44"
+    400166: "\u914D\u96FB\u7BB1\u5371\u96AA\u8B66\u544A\u8CBC\u7D19"
+    400168: "\u96FB\u6AC3alpha\u9762\u677F"
+    400170: ElectricCabinetAlpha
+    400172: NitrogenSticker
+    400174: WaterTankSticker
     2100000: 'Material #280'
     2100002: Silver
     2100004: Blue
@@ -165,6 +191,11 @@ ModelImporter:
     2100018: Metal
     2100020: 24 - Default
     2100022: No Name
+    2100024: Transparent
+    2100026: 'Material #279 Slot #10'
+    2100028: 15 - Default
+    2100030: WaterTankAlpha
+    2100032: Plane
     2300000: Arm_1
     2300002: Arm_2
     2300004: Arm_3
@@ -239,6 +270,19 @@ ModelImporter:
     2300142: BaseWindShield
     2300144: NitrogenBase
     2300146: Glow
+    2300148: Arm_4_Sticker
+    2300150: CCD
+    2300152: DisplayStand
+    2300154: Object001
+    2300156: Object002
+    2300158: Rectangle001
+    2300160: "\u6C34\u7BB1Alpha"
+    2300162: "\u6C34\u7BB1\u4F9B\u6CB9\u7D44"
+    2300164: "\u914D\u96FB\u7BB1\u5371\u96AA\u8B66\u544A\u8CBC\u7D19"
+    2300166: "\u96FB\u6AC3alpha\u9762\u677F"
+    2300168: ElectricCabinetAlpha
+    2300170: NitrogenSticker
+    2300172: WaterTankSticker
     3300000: Arm_1
     3300002: Arm_2
     3300004: Arm_3
@@ -313,6 +357,19 @@ ModelImporter:
     3300142: BaseWindShield
     3300144: NitrogenBase
     3300146: Glow
+    3300148: Arm_4_Sticker
+    3300150: CCD
+    3300152: DisplayStand
+    3300154: Object001
+    3300156: Object002
+    3300158: Rectangle001
+    3300160: "\u6C34\u7BB1Alpha"
+    3300162: "\u6C34\u7BB1\u4F9B\u6CB9\u7D44"
+    3300164: "\u914D\u96FB\u7BB1\u5371\u96AA\u8B66\u544A\u8CBC\u7D19"
+    3300166: "\u96FB\u6AC3alpha\u9762\u677F"
+    3300168: ElectricCabinetAlpha
+    3300170: NitrogenSticker
+    3300172: WaterTankSticker
     4300000: Storage_Base
     4300002: Storage_Plate_Base_F
     4300004: Storage_Plate_High
@@ -387,6 +444,19 @@ ModelImporter:
     4300142: BaseArmBase
     4300144: NitrogenBase
     4300146: Glow
+    4300148: DisplayStand
+    4300150: CCD
+    4300152: Object001
+    4300154: Arm_4_Sticker
+    4300156: "\u914D\u96FB\u7BB1\u5371\u96AA\u8B66\u544A\u8CBC\u7D19"
+    4300158: "\u96FB\u6AC3alpha\u9762\u677F"
+    4300160: Rectangle001
+    4300162: "\u6C34\u7BB1Alpha"
+    4300164: Object002
+    4300166: "\u6C34\u7BB1\u4F9B\u6CB9\u7D44"
+    4300168: NitrogenSticker
+    4300170: ElectricCabinetAlpha
+    4300172: WaterTankSticker
   externalObjects: {}
   materials:
     importMaterials: 1

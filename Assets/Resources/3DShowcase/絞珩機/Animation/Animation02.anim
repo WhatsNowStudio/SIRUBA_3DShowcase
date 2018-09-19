@@ -4622,7 +4622,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 12
+        time: 16
         value: 0
         inSlope: Infinity
         outSlope: Infinity
@@ -4659,7 +4659,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 20.983334
+        time: 22
         value: 0
         inSlope: Infinity
         outSlope: Infinity
@@ -4687,7 +4687,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 2.9833333
+        time: 3
         value: 1
         inSlope: Infinity
         outSlope: Infinity
@@ -4696,7 +4696,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 6
+        time: 7
         value: 0
         inSlope: Infinity
         outSlope: Infinity
@@ -4717,6 +4717,24 @@ AnimationClip:
       - serializedVersion: 3
         time: 0
         value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 25
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 26
+        value: 0
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -17550,7 +17568,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 12
+        time: 16
         value: 0
         inSlope: Infinity
         outSlope: Infinity
@@ -17587,7 +17605,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 20.983334
+        time: 22
         value: 0
         inSlope: Infinity
         outSlope: Infinity
@@ -17615,7 +17633,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 2.9833333
+        time: 3
         value: 1
         inSlope: Infinity
         outSlope: Infinity
@@ -17624,7 +17642,7 @@ AnimationClip:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 6
+        time: 7
         value: 0
         inSlope: Infinity
         outSlope: Infinity
@@ -17645,6 +17663,24 @@ AnimationClip:
       - serializedVersion: 3
         time: 0
         value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 25
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 26
+        value: 0
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
