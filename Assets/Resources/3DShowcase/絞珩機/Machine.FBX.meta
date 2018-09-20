@@ -91,6 +91,8 @@ ModelImporter:
     100170: ElectricCabinetAlpha
     100172: NitrogenSticker
     100174: WaterTankSticker
+    100176: Plane001
+    100178: Plane002
     400000: Arm_1
     400002: Arm_2
     400004: Arm_3
@@ -179,6 +181,8 @@ ModelImporter:
     400170: ElectricCabinetAlpha
     400172: NitrogenSticker
     400174: WaterTankSticker
+    400176: Plane001
+    400178: Plane002
     2100000: 'Material #280'
     2100002: Silver
     2100004: Blue
@@ -283,6 +287,8 @@ ModelImporter:
     2300168: ElectricCabinetAlpha
     2300170: NitrogenSticker
     2300172: WaterTankSticker
+    2300174: Plane001
+    2300176: Plane002
     3300000: Arm_1
     3300002: Arm_2
     3300004: Arm_3
@@ -370,6 +376,8 @@ ModelImporter:
     3300168: ElectricCabinetAlpha
     3300170: NitrogenSticker
     3300172: WaterTankSticker
+    3300174: Plane001
+    3300176: Plane002
     4300000: Storage_Base
     4300002: Storage_Plate_Base_F
     4300004: Storage_Plate_High
@@ -457,6 +465,8 @@ ModelImporter:
     4300168: NitrogenSticker
     4300170: ElectricCabinetAlpha
     4300172: WaterTankSticker
+    4300174: Plane001
+    4300176: Plane002
   externalObjects: {}
   materials:
     importMaterials: 1
