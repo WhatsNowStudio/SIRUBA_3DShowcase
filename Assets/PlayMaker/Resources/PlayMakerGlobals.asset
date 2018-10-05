@@ -47,6 +47,12 @@ MonoBehaviour:
       networkSync: 0
       value: {fileID: 0}
     - useVariable: 1
+      name: GObj/MainCanvas
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
       name: GObj/MainManager&API
       tooltip: 
       showInInspector: 0
@@ -59,7 +65,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 0000000000000000000000000000000000000000
+    variableCategoryIDs: 000000000000000000000000000000000000000000000000
   events:
   - Process
   - Process2
@@ -81,3 +87,6 @@ MonoBehaviour:
   - On
   - Off
   - GoDefault
+  - LogIn
+  - LogIn_Done
+  - LogIn_Fail

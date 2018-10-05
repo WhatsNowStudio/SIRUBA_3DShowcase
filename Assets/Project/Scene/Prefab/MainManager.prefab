@@ -1085,7 +1085,7 @@ MonoBehaviour:
           name: Done
           isSystemEvent: 0
           isGlobal: 0
-        toState: "\u53D63DButtonJosn"
+        toState: "\u53D6Josn"
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -1197,14 +1197,14 @@ MonoBehaviour:
         - isError
         paramDataPos: 00000000000000000100000001000000000000000100000000000000010000000000000002000000000000000000000001000000
         paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000
-    - name: "\u53D63DButtonJosn"
-      description: "#\u53D6\u5F97Data"
+    - name: "\u53D6Josn"
+      description: "#\u53D6\u5F97Data\n#\u53D63DButtonJosn\n#\u53D6LogIn Json"
       colorIndex: 0
       position:
         serializedVersion: 2
         x: 343.3672
         y: 128.10156
-        width: 134
+        width: 120.5
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -1226,7 +1226,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 0101
-        actionIsOpen: 0000
+        actionIsOpen: 0101
         actionStartIndex: 0000000007000000
         actionHashCodes: 15a3be0515a3be05
         unityObjectParams: []
@@ -1263,6 +1263,12 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 3DButton
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: LogIn
         fsmObjectParams: []
         fsmVarParams:
         - variableName: String/Json/Org
@@ -1313,6 +1319,30 @@ MonoBehaviour:
             stringValues: []
             vector4Values: []
             objectReferences: []
+        - variableName: String/Json/LogIn
+          objectType: UnityEngine.Object
+          useVariable: 1
+          type: 4
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue: 
+          vector4Value: {x: 0, y: 0, z: 0, w: 0}
+          objectReference: {fileID: 0}
+          arrayValue:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
         fsmArrayParams: []
         fsmEnumParams: []
         fsmFloatParams: []
@@ -1329,7 +1359,7 @@ MonoBehaviour:
         - 
         - 
         byteData: 
-        arrayParamSizes: 01000000010000000100000001000000
+        arrayParamSizes: 01000000010000000200000002000000
         arrayParamTypes:
         - HutongGames.PlayMaker.FsmString
         - HutongGames.PlayMaker.FsmVar
@@ -1337,7 +1367,7 @@ MonoBehaviour:
         - HutongGames.PlayMaker.FsmVar
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 120000000c000000120000000c000000270000001700000017000000120000000c000000120000000c000000270000001700000017000000
+        paramDataType: 120000000c000000120000000c000000270000001700000017000000120000000c00000012000000120000000c00000027000000270000001700000017000000
         paramName:
         - jsonString
         - keys
@@ -1349,12 +1379,14 @@ MonoBehaviour:
         - jsonString
         - keys
         - 
+        - 
         - values
+        - 
         - 
         - successEvent
         - failureEvent
-        paramDataPos: 0000000000000000010000000100000000000000000000000100000002000000020000000300000003000000010000000200000003000000
-        paramByteDataSize: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+        paramDataPos: 00000000000000000100000001000000000000000000000001000000020000000200000003000000040000000300000001000000020000000200000003000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
     - name: "\u53D6\u5F973DButton\u8CC7\u6599"
       description: 
       colorIndex: 0
@@ -1904,7 +1936,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 01010101
-        actionIsOpen: 00000000
+        actionIsOpen: 01000000
         actionStartIndex: 00000000070000000e00000017000000
         actionHashCodes: 15a3be0515a3be0515a3be05a4c8bf00
         unityObjectParams: []
@@ -2306,6 +2338,12 @@ MonoBehaviour:
         networkSync: 0
         value: 
       - useVariable: 1
+        name: String/Json/LogIn
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 
+      - useVariable: 1
         name: String/Json/Org
         tooltip: 
         showInInspector: 0
@@ -2366,7 +2404,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 0
