@@ -87,6 +87,6 @@ MonoBehaviour:
   - On
   - Off
   - GoDefault
-  - LogIn
-  - LogIn_Done
-  - LogIn_Fail
+  - Key_Done
+  - Key
+  - Key_Close

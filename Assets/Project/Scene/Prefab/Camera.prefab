@@ -2560,7 +2560,7 @@ MonoBehaviour:
         - useVariable: 1
           name: Distance
           tooltip: 
-          showInInspector: 1
+          showInInspector: 0
           networkSync: 0
           value: 0
         fsmIntParams:
@@ -2606,7 +2606,7 @@ MonoBehaviour:
         - useVariable: 1
           name: 0
           tooltip: 
-          showInInspector: 1
+          showInInspector: 0
           networkSync: 0
           value: {x: 0, y: 0, z: 0}
         - useVariable: 1
@@ -2618,7 +2618,7 @@ MonoBehaviour:
         - useVariable: 1
           name: 1
           tooltip: 
-          showInInspector: 1
+          showInInspector: 0
           networkSync: 0
           value: {x: 0, y: 0, z: 0}
         - useVariable: 1
@@ -2630,13 +2630,13 @@ MonoBehaviour:
         - useVariable: 1
           name: 0
           tooltip: 
-          showInInspector: 1
+          showInInspector: 0
           networkSync: 0
           value: {x: 0, y: 0, z: 0}
         - useVariable: 1
           name: 1
           tooltip: 
-          showInInspector: 1
+          showInInspector: 0
           networkSync: 0
           value: {x: 0, y: 0, z: 0}
         - useVariable: 1

@@ -424,7 +424,7 @@ GameObject:
   - component: {fileID: 114435626998228158}
   - component: {fileID: 114314875456721126}
   m_Layer: 5
-  m_Name: InputPassWord
+  m_Name: InputKey
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1101,7 +1101,7 @@ GameObject:
   - component: {fileID: 224960898493964846}
   - component: {fileID: 95877049815677730}
   m_Layer: 5
-  m_Name: LogIn
+  m_Name: Key
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1381,7 +1381,7 @@ GameObject:
   - component: {fileID: 114707613666068972}
   - component: {fileID: 114114025141321396}
   m_Layer: 5
-  m_Name: InputAccount
+  m_Name: InputDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1915,7 +1915,7 @@ GameObject:
   - component: {fileID: 114561452229301892}
   - component: {fileID: 114495168974265060}
   m_Layer: 5
-  m_Name: ButtonLogin
+  m_Name: ButtonKey
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2298,7 +2298,7 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 1
         networkSync: 0
-        value: LogIn
+        value: Key
       vector2Variables: []
       vector3Variables: []
       colorVariables: []
@@ -2328,7 +2328,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -2479,8 +2479,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 114816530268682914}
   m_HandleRect: {fileID: 224286914352137486}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.9999999
+  m_Value: 0
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -5916,7 +5916,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -6814,7 +6814,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -11171,7 +11171,7 @@ MonoBehaviour:
         tooltip: 
         showInInspector: 1
         networkSync: 0
-        value: LogIn
+        value: Key
       vector2Variables: []
       vector3Variables: []
       colorVariables: []
@@ -11201,7 +11201,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -11250,7 +11250,7 @@ MonoBehaviour:
   fsm:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
-    name: LogIn
+    name: Key
     startState: Start
     states:
     - name: Start
@@ -11258,8 +11258,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 50
-        y: 180
+        x: 53
+        y: 121
         width: 100
         height: 16
       isBreakpoint: 0
@@ -11305,7 +11305,7 @@ MonoBehaviour:
         - ownerOption: 1
           gameObject:
             useVariable: 1
-            name: Obj/LogIn
+            name: Obj/Key
             tooltip: 
             showInInspector: 1
             networkSync: 0
@@ -11587,7 +11587,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 010101
-        actionIsOpen: 000101
+        actionIsOpen: 010101
         actionStartIndex: 000000000f00000014000000
         actionHashCodes: d9ade60352221a0215a3be05
         unityObjectParams: []
@@ -11643,15 +11643,15 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: String/Json/LogIn
+          value: String/Json/Key
         - useVariable: 1
-          name: String/Json/LogIn
+          name: String/Json/Key
           tooltip: 
           showInInspector: 0
           networkSync: 0
           value: 
         - useVariable: 1
-          name: String/Json/LogIn
+          name: String/Json/Key
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -11661,7 +11661,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: Account
+          value: Door
         fsmObjectParams:
         - useVariable: 1
           name: 
@@ -11685,7 +11685,7 @@ MonoBehaviour:
           typeName: 
           value: {fileID: 0}
         fsmVarParams:
-        - variableName: String/Json/Account
+        - variableName: String/Json/Door
           objectType: UnityEngine.Object
           useVariable: 1
           type: 4
@@ -11864,7 +11864,7 @@ MonoBehaviour:
         layoutOptionParams: []
         fsmStringParams:
         - useVariable: 1
-          name: String/Json/LogIn
+          name: String/Json/Key
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -11874,7 +11874,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: NeedLogIn?
+          value: NeedKey?
         - useVariable: 1
           name: String/Public
           tooltip: 
@@ -12041,7 +12041,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams:
-        - LogIn_Done
+        - Key_Done
         byteData: 00
         arrayParamSizes: 
         arrayParamTypes: []
@@ -12085,7 +12085,7 @@ MonoBehaviour:
         - ownerOption: 1
           gameObject:
             useVariable: 1
-            name: Obj/LogIn
+            name: Obj/Key
             tooltip: 
             showInInspector: 1
             networkSync: 0
@@ -12093,7 +12093,7 @@ MonoBehaviour:
         - ownerOption: 1
           gameObject:
             useVariable: 1
-            name: Obj/LogIn
+            name: Obj/Key
             tooltip: 
             showInInspector: 1
             networkSync: 0
@@ -12162,7 +12162,7 @@ MonoBehaviour:
         paramDataPos: 00000000000000000100000000000000010000000100000000000000020000000200000003000000
         paramByteDataSize: 00000000000000000000000001000000010000000000000000000000000000000100000004000000
     - name: "\u5075\u6E2C\u6309\u4E0B"
-      description: '#ButtonLogin
+      description: '#ButtonKey
 
         #BG'
       colorIndex: 0
@@ -12188,7 +12188,7 @@ MonoBehaviour:
           name: 1
           isSystemEvent: 0
           isGlobal: 0
-        toState: "\u95DC\u9589\u4ECB\u9762"
+        toState: "\u558A\u51FA\u95DC\u9589\u4ECB\u9762"
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -12262,7 +12262,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: ButtonLogin
+          value: ButtonKey
         - useVariable: 0
           name: 
           tooltip: 
@@ -12396,13 +12396,13 @@ MonoBehaviour:
         paramDataPos: 0000000000000000000000000000000000000000000000000000000001000000010000000000000000000000000000000100000000000000020000000200000002000000000000000300000000000000040000000500000001000000000000000100000001000000
         paramByteDataSize: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000001000000
     - name: "\u95DC\u9589\u4ECB\u9762"
-      description: "#\u7B49\u5F85\u52D5\u4F5C\u5B8C\u6210"
+      description: "#\u7B49\u5F85\u52D5\u4F5C\u5B8C\u6210\n#\u547C\u53EB\u653E\u68C4\u8F38\u5165KEY"
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 403
-        y: 564
-        width: 100
+        x: 412
+        y: 582
+        width: 108.5
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -12433,7 +12433,7 @@ MonoBehaviour:
         - ownerOption: 1
           gameObject:
             useVariable: 1
-            name: Obj/LogIn
+            name: Obj/Key
             tooltip: 
             showInInspector: 1
             networkSync: 0
@@ -12499,8 +12499,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 408
-        y: 632
+        x: 413
+        y: 677
         width: 100
         height: 16
       isBreakpoint: 0
@@ -12522,7 +12522,7 @@ MonoBehaviour:
         - ownerOption: 1
           gameObject:
             useVariable: 1
-            name: Obj/LogIn
+            name: Obj/Key
             tooltip: 
             showInInspector: 1
             networkSync: 0
@@ -12642,7 +12642,7 @@ MonoBehaviour:
           networkSync: 0
           value: 
         - useVariable: 1
-          name: String/PassWord
+          name: String/Key
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -12654,7 +12654,7 @@ MonoBehaviour:
           networkSync: 0
           value: 
         - useVariable: 1
-          name: String/Json/Account
+          name: String/Json/Door
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -12666,7 +12666,7 @@ MonoBehaviour:
           networkSync: 0
           value: 
         - useVariable: 1
-          name: String/PassWord
+          name: String/Key
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -12679,7 +12679,7 @@ MonoBehaviour:
           value: 
         fsmObjectParams: []
         fsmVarParams:
-        - variableName: String/PassWord
+        - variableName: String/Key
           objectType: UnityEngine.Object
           useVariable: 1
           type: 4
@@ -12815,7 +12815,7 @@ MonoBehaviour:
         layoutOptionParams: []
         fsmStringParams:
         - useVariable: 1
-          name: String/PassWord
+          name: String/Key
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -12833,7 +12833,7 @@ MonoBehaviour:
           networkSync: 0
           value: 
         - useVariable: 1
-          name: String/PassWord
+          name: String/Key
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -12851,7 +12851,7 @@ MonoBehaviour:
           networkSync: 0
           value: 
         - useVariable: 1
-          name: String/PassWord
+          name: String/Key
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -13487,7 +13487,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: LogInSuccess
+          name: KeySuccess
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -13504,7 +13504,7 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams:
-        - LogIn_Done
+        - Key_Done
         byteData: 0000
         arrayParamSizes: 
         arrayParamTypes: []
@@ -13869,7 +13869,7 @@ MonoBehaviour:
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 1
-          name: LogInSuccess
+          name: KeySuccess
           tooltip: 
           showInInspector: 0
           networkSync: 0
@@ -13895,6 +13895,111 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 00000000000000000100000000000000
         paramByteDataSize: 00000000000000000000000001000000
+    - name: "\u558A\u51FA\u95DC\u9589\u4ECB\u9762"
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 422
+        y: 533
+        width: 102
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: "\u95DC\u9589\u4ECB\u9762"
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.SendEvent
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 5e69bb04
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams:
+        - target: 2
+          excludeSelf:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          gameObject:
+            ownerOption: 1
+            gameObject:
+              useVariable: 1
+              name: Obj/Sender
+              tooltip: 
+              showInInspector: 0
+              networkSync: 0
+              value: {fileID: 0}
+          fsmName:
+            useVariable: 1
+            name: String/SenderFsm
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 
+          sendToChildren:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          fsmComponent: {fileID: 0}
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - Key_Close
+        byteData: 00
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1f000000170000000f00000001000000
+        paramName:
+        - eventTarget
+        - sendEvent
+        - delay
+        - everyFrame
+        paramDataPos: 00000000000000000000000000000000
+        paramByteDataSize: 00000000000000000000000001000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -13917,10 +14022,13 @@ MonoBehaviour:
     - name: Go
       isSystemEvent: 0
       isGlobal: 0
-    - name: LogIn
+    - name: Key
       isSystemEvent: 0
       isGlobal: 1
-    - name: LogIn_Done
+    - name: Key_Close
+      isSystemEvent: 0
+      isGlobal: 1
+    - name: Key_Done
       isSystemEvent: 0
       isGlobal: 1
     - name: N
@@ -13934,7 +14042,7 @@ MonoBehaviour:
       isGlobal: 0
     globalTransitions:
     - fsmEvent:
-        name: LogIn
+        name: Key
         isSystemEvent: 0
         isGlobal: 1
       toState: "\u53D6\u5F97json"
@@ -13960,26 +14068,26 @@ MonoBehaviour:
       intVariables: []
       boolVariables:
       - useVariable: 1
-        name: LogInSuccess
+        name: KeySuccess
         tooltip: 
         showInInspector: 0
         networkSync: 0
         value: 0
       stringVariables:
       - useVariable: 1
-        name: String/Json/Account
+        name: String/Json/Door
         tooltip: 
         showInInspector: 0
         networkSync: 0
         value: 
       - useVariable: 1
-        name: String/Json/LogIn
+        name: String/Json/Key
         tooltip: 
         showInInspector: 0
         networkSync: 0
         value: 
       - useVariable: 1
-        name: String/PassWord
+        name: String/Key
         tooltip: 
         showInInspector: 0
         networkSync: 0
@@ -14009,7 +14117,7 @@ MonoBehaviour:
         networkSync: 0
         value: {fileID: 1672935219317524}
       - useVariable: 1
-        name: Obj/LogIn
+        name: Obj/Key
         tooltip: 
         showInInspector: 1
         networkSync: 0
@@ -14222,7 +14330,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -15408,7 +15516,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -15868,7 +15976,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -16126,7 +16234,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -16272,7 +16380,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -16562,7 +16670,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -16912,7 +17020,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -17513,7 +17621,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -17711,7 +17819,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -18351,7 +18459,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.000023905232}
+  m_AnchoredPosition: {x: 0, y: 0.00006345196}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!224 &224056985714418412

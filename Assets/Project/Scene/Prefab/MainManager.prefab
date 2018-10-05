@@ -1268,7 +1268,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: LogIn
+          value: Key
         fsmObjectParams: []
         fsmVarParams:
         - variableName: String/Json/Org
@@ -1319,7 +1319,7 @@ MonoBehaviour:
             stringValues: []
             vector4Values: []
             objectReferences: []
-        - variableName: String/Json/LogIn
+        - variableName: String/Json/Key
           objectType: UnityEngine.Object
           useVariable: 1
           type: 4
@@ -2338,7 +2338,7 @@ MonoBehaviour:
         networkSync: 0
         value: 
       - useVariable: 1
-        name: String/Json/LogIn
+        name: String/Json/Key
         tooltip: 
         showInInspector: 0
         networkSync: 0
