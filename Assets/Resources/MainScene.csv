@@ -20,3 +20,39 @@ Button_Interactive,,開啟互動模式,開啟互動模式,Turn on interactive mo
 ButtonBack,,上一頁,上一頁,Previous
 ButtonNext,,下一頁,下一頁,Next
 ButtonDone,,結束,結束,Done
+Ani_Exp_Tag01_Title,,高剛性機床及立柱,高剛性機床及立柱,High rigidity Pallets and column
+Ani_Exp_Tag01_Content,,全機座採用減震性優異的高精度鑄鐵，確保機械精密加工更穩定。,全機座採用減震性優異的高精度鑄鐵，確保機械精密加工更穩定。,Pallets and column made by high precision cast iron material to ensure machining more stable.
+Ani_Exp_Tag02_Title,,THK滾珠螺杆,THK滾珠螺杆,THK Ball Screw
+Ani_Exp_Tag02_Content,,THK滾珠螺桿可以將馬達回轉運動變為直線運動。驅動扭矩僅為傳統滑動螺桿的三分之一。,THK滾珠螺桿可以將馬達回轉運動變為直線運動。驅動扭矩僅為傳統滑動螺桿的三分之一。,THK Ball Screw capable of converting rotational motion to straight motion. Its required driving torque is only one third of the conventional sliding screw.
+Ani_Exp_Tag03_Title,,升降軸伺服電機,升降軸伺服電機,Z-axis servo motor
+Ani_Exp_Tag03_Content,,提供高稳定性和高精度的線性運動。,提供高稳定性和高精度的線性運動。,It provides high stability and high precision linear motion.
+Ani_Exp_Tag04_Title,,THK線性滑軌,THK線性滑軌,THK Linear Motion Guide
+Ani_Exp_Tag04_Content,,具有承受高速度、高負荷並保持高精度的直線運動模組。,具有承受高速度、高負荷並保持高精度的直線運動模組。,THK Linear Motion Guide can achieve high precision linear motion with high speed and high load.
+Ani_Exp_Tag05_Title,,多軸頭,多軸頭,Multi Spindle
+Ani_Exp_Tag05_Content,,採用高耐磨，高強度，好韌性和可塑性的球墨鑄鐵。,採用高耐磨，高強度，好韌性和可塑性的球墨鑄鐵。,"Made by cast iron material capable of high wear resistance, high strength, good toughness and plasticity."
+Ani_Exp_Tag06_Title,,主軸馬達,主軸馬達,Spindle motor
+Ani_Exp_Tag06_Content,,功率強大的主軸馬達，對大孔徑加工提供強勁動力。,功率強大的主軸馬達，對大孔徑加工提供強勁動力。,Powerful spindle motor provides power for large aperture machining.
+Ani_Exp_Tag07_Title,,主軸運動平衡系統 (氮氣式),主軸運動平衡系統 (氮氣式),Automatic compensation balance system
+Ani_Exp_Tag07_Content,,自動補償平衡系統是利用蓄壓器原理控制氣壓缸配合主軸頭部之伺服馬達上升下降，平衡主軸之重量。,自動補償平衡系統是利用蓄壓器原理控制氣壓缸配合主軸頭部之伺服馬達上升下降，平衡主軸之重量。,"Using the accumulator principle to control the cylinder move with the spindle rising and falling, balancing the weight of the spindle."
+Ani_Exp_Tag08_Title,,FANUC 200iD機械手,FANUC 200iD機械手,FANUC Robot LR Mate 200iD
+Ani_Exp_Tag08_Content,,使用自動尺寸檢測系統，自動顯示不良品數目，FANUC機械手自動夾取至不良品拋料區。,使用自動尺寸檢測系統，自動顯示不良品數目，FANUC機械手自動夾取至不良品拋料區。,"Use Automatic size detection system. Automatically display the number of defective items, and FANUC Robot automatically pick up the defective parts."
+Ani_Exp_Tag09_Title,,8工位高精度分度盤,8工位高精度分度盤,8 Processed rotative work table modular
+Ani_Exp_Tag09_Content,,採用日本SANKYO八工位電動式回轉盤，達到最高生產效益。,採用日本SANKYO八工位電動式回轉盤，達到最高生產效益。,Using SANKYO (Japan) 8 Processed rotative work table modular machine tool in detail.
+Ani_Exp_Tag10_Title,,自動潤滑系統,自動潤滑系統,Automatic lubrication systems
+Ani_Exp_Tag10_Content,,自動潤滑系統可在正確時間間隔提供適量潤滑劑，提高機械的使用壽命。,自動潤滑系統可在正確時間間隔提供適量潤滑劑，提高機械的使用壽命。,Automatic lubrication systems supply the correct amount of grease at the best time to improve the service life of the machine.
+Ani_Exp_Tag11_Title,,全自動上下料模組,全自動上下料模組,Automatic feeding and unloading material device
+Ani_Exp_Tag11_Content,,實現設備自動化連續作業。,實現設備自動化連續作業。,Realize automatic continuous operation.
+Ani_Desi_Tag01_Title,,1、立柱,1、立柱,1. Upright column
+Ani_Desi_Tag01_Content,,材質 FC-250,材質 FC-250,Material : FC-250
+Ani_Desi_Tag02_Title,,2、多軸頭,2、多軸頭,2. multi-spindle tool housing
+Ani_Desi_Tag02_Content,,材質 FCD-400,材質 FCD-400,Material : FC-400
+Ani_Desi_Tag03_Title,,3、機床底座,3、機床底座,3. machine tool base
+Ani_Desi_Tag03_Content,,材質 FC-250,材質 FC-250,Material : FC-250
+Ani_Desi_Tag04_Title,,4、SANKYO 8工位電動式迴轉盤,4、SANKYO 8工位電動式迴轉盤,4. SANKYO rotary disk with  Eight stations
+Ani_Desi_Tag05_Title,,"5、8工位氣壓式回轉接頭","5、8工位氣壓式回轉接頭",5. Pneumatic flexible rotary joint with  Eight stations
+Ani_Desi_Tag06_Title,,6、X/Y軸浮動治具,6、X/Y軸浮動治具,6. Floating fixture with X/Y Table
+Ani_Desi_Tag07_Title,,7、固定式治具,7、固定式治具,7. Fixed jig
+Ani_Desi_Tag08_Title,,8、氣壓式彈性筒夾,8、氣壓式彈性筒夾,8. Pneumatic Collet Chuck
+Ani_ Machining_Tag01_Title,,1 = 上下料,1 = 上下料,Step1. Loading & unloading
+Ani_ Machining_Tag02_Title,,2~7 = 加工,2~7 = 加工,Step2~7. hole honing
+Ani_ Machining_Tag03_Title,,8 = 自動檢測,8 = 自動檢測,Step3. automatic inspection
