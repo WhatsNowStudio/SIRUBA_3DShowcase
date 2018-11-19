@@ -42,7 +42,7 @@ Ani_Exp_Tag10_Title,,自動潤滑系統,自動潤滑系統,Automatic lubrication
 Ani_Exp_Tag10_Content,,自動潤滑系統可在正確時間間隔提供適量潤滑劑，提高機械的使用壽命。,自動潤滑系統可在正確時間間隔提供適量潤滑劑，提高機械的使用壽命。,Automatic lubrication systems supply the correct amount of grease at the best time to improve the service life of the machine.
 Ani_Exp_Tag11_Title,,全自動上下料模組,全自動上下料模組,Automatic feeding and unloading material device
 Ani_Exp_Tag11_Content,,實現設備自動化連續作業。,實現設備自動化連續作業。,Realize automatic continuous operation.
-Ani_Desi_Tag01_Title,,1、立柱,1、立柱,1. Upright column
+Ani_Desi_Tag01_Title,,1、立柱,1、立柱,1.Guide frame
 Ani_Desi_Tag01_Content,,材質 FC-250,材質 FC-250,Material : FC-250
 Ani_Desi_Tag02_Title,,2、多軸頭,2、多軸頭,2. multi-spindle tool housing
 Ani_Desi_Tag02_Content,,材質 FCD-400,材質 FCD-400,Material : FC-400
@@ -55,4 +55,4 @@ Ani_Desi_Tag07_Title,,7、固定式治具,7、固定式治具,7. Fixed jig
 Ani_Desi_Tag08_Title,,8、氣壓式彈性筒夾,8、氣壓式彈性筒夾,8. Pneumatic Collet Chuck
 Ani_ Machining_Tag01_Title,,1 = 上下料,1 = 上下料,Step1. Loading & unloading
 Ani_ Machining_Tag02_Title,,2~7 = 加工,2~7 = 加工,Step2~7. hole honing
-Ani_ Machining_Tag03_Title,,8 = 自動檢測,8 = 自動檢測,Step3. automatic inspection
+Ani_ Machining_Tag03_Title,,8 = 自動檢測,8 = 自動檢測,Step8. automatic inspection

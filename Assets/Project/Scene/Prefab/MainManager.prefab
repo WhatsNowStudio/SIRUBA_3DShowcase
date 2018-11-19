@@ -1392,8 +1392,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 207
-        y: 323
+        x: 197
+        y: 361
         width: 140
         height: 32
       isBreakpoint: 0
@@ -2416,13 +2416,13 @@ MonoBehaviour:
         paramDataPos: 00000000000000000100000001000000000000000100000000000000010000000000000002000000000000000000000001000000
         paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000
     - name: "\u5BEB\u5165Json"
-      description: "#\u57FA\u672C\u6B3E"
+      description: "#\u57FA\u672C\u6B3E\n#json\u7248\u672C20181119"
       colorIndex: 0
       position:
         serializedVersion: 2
         x: 218.48438
         y: 210.5
-        width: 100
+        width: 130.5
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -2470,27 +2470,35 @@ MonoBehaviour:
             {\n          \"Pic\": \"i4.0\u5168\u81EA\u52D5\u9278\u73E9\u6A5F\u904B\u8F49\u8996\u983B\",\n
             \         \"text\": \"i4.0\u5168\u81EA\u52D5\u9278\u73E9\u6A5F\u904B\u8F49\u8996\u983B\",\n
             \         \"File\": \"Running.mp4\"\n        }\n      },\n      \"Pdf\":
-            {\n        \"0\": {\n          \"Pic\": \"\u5168\u81EA\u52D5\u9278\u73E9\u6A5F\u7CBE\u8AAA\u660E\u66F8\",\n
-            \         \"text\": \"\u5168\u81EA\u52D5\u9278\u73E9\u6A5F\u7CBE\u8AAA\u660E\u66F8\",\n
-            \         \"File\": \"AutomaticHingeMachineManual.pdf\"\n        },\n
-            \       \"1\": {\n          \"Pic\": \"\u81EA\u52D5\u9278\u73E9\u6A5F\u7CBE\u5EA6\u6AA2\u6E2C\u6578\u64DA\",\n
+            {\n        \"0\": {\n          \"Pic\": \"\u5168\u81EA\u52D5\u9278\u73E9\u6A5F\u8AAA\u660E\u66F8\",\n
+            \         \"text\": \"\u5168\u81EA\u52D5\u9278\u73E9\u6A5F\u8AAA\u660E\u66F8\",\n
+            \         \"File\": \"Introduction_to_fully_automatic_honing_machine.pdf\"\n
+            \       },\n        \"1\": {\n          \"Pic\": \"\u81EA\u52D5\u9278\u73E9\u6A5F\u7CBE\u5EA6\u6AA2\u6E2C\u6578\u64DA\",\n
             \         \"text\": \"\u81EA\u52D5\u9278\u73E9\u6A5F\u7CBE\u5EA6\u6AA2\u6E2C\u6578\u64DA\",\n
-            \         \"File\": \"TestData.pdf\"\n        }\n      }\n    },\n    \"en\":
-            {\n      \"Video\": {},\n      \"Pdf\": {}\n    }\n  },\n  \"3DButton\":
-            {\n    \"0\": {\n      \"Type\": \"2D\",\n      \"ButtonType\": \"RT\",\n
-            \     \"Animation\": \"\",\n      \"ShellOff\": \"N\",\n      \"Linestructure\":
-            \"0_50\",\n      \"Button_en\": \"Unique excellent performance\",\n      \"Button_tw\":
-            \"\u7368\u7279\u7684\u512A\u7570\u6027\u80FD\",\n      \"Title_en\": \"Unique
-            excellent performance\",\n      \"Title_tw\": \"\u7368\u7279\u7684\u512A\u7570\u6027\u80FD\",\n
-            \     \"Content_en\": \"Advantage\\n\\nSIRUBA Auto Honing Machine is the
-            ultra precision\\nmachining . The advantage as following:\\n\\n\u203B
-            The machine base made by high precision cast ironmaterial FC300&FCD400
-            to ensure more stable.\\n\\n\u203B Automatic nitrogen balance system.\\n\\n\u203BUsing
-            THK liner guideway and precision ball screwspline.\\n\\n\u203B Using FANUC
-            controller and SANKYO high precisionrotary platform.\\n\\n\u203BHigh Power
-            motor.\\n\\n\u203B The automatic size detection system (gas electricconversion
-            measurement) has the functions of automaticchecking, calculating and correcting.\",\n
-            \     \"Content_tw\": \"SIRUBA\u81EA\u52D5\u9278\u73E9\u6A5F\u662F\u6700\u5148\u9032\u5167\u5B54\u8D85\u7CBE\u5BC6\u52A0\u5DE5\u9818\u57DF\u7684\u5C16\u7AEF\u8A2D\u5099\uFF0C\\n\u512A\u52E2\u5982\u4E0B\uFF1A\\n\\n\u203B\u5168\u6A5F\u5EA7\u63A1\u7528\u6E1B\u9707\u6027\u512A\u7570\u7684\u9AD8\u7CBE\u5EA6\u9444\u9435\u6750\u8CEAFC300&FCD400\uFF0C\u78BA\u4FDD\u6A5F\u68B0\u7CBE\u5BC6\u52A0\u5DE5\u66F4\u7A69\u5B9A\uFF1B\\n\\n\u203B\u4E3B\u8EF8\u904B\u52D5\u63A1\u7528\u6C2E\u6C23\u5F0F\u7684\u5E73\u8861\u7CFB\u7D71\uFF0C\u9023\u63A5\u842C\u5411\u63A5\u982D\u4F7F\u4E3B\u8EF8\u904B\u52D5\u66F4\u7A69\u5B9A\uFF1B\\n\\n\u203B\u63A1\u7528THK\u9AD8\u5F37\u5EA6\u7684\u5C0E\u8ECC\u548C\u7CBE\u5BC6\u87BA\u687F\u6A5F\u69CB\u5143\u4EF6\uFF0C\u63A1\u7528\u5168\u81EA\u52D5\u5F37\u5236\u96C6\u4E2D\u6F64\u6ED1\u7CFB\u7D71\uFF0C\u4F7F\u6A5F\u5E8A\u4E0D\u6613\u78E8\u640D\uFF0C\u7D93\u4E45\u8010\u7528\u78BA\u4FDD\u6A5F\u68B0\u4F7F\u7528\u58FD\u547D\uFF1B\\n\\n\u203B\u5148\u9032\u87BA\u7D72\u7684\u9632\u9B06\u812B\u8A2D\u8A08\uFF0C\u4F7F\u6A5F\u5E8A\u66F4\u7A69\u5B9A\uFF1B\\n\\n\u203B\u63A1\u7528FANUC\u4F3A\u670D\u63A7\u5236\u7CFB\u7D71\u548C\u65E5\u672CSANKYO\u9AD8\u7CBE\u5EA6\u65CB\u8F49\u5DE5\u4F5C\u81FA\uFF0C\u6EFF\u8DB3\u6A5F\u5E8A\u591A\u54C1\u7A2E\u52A0\u5DE5\u7684\u67D4\u6027\u8981\u6C42\uFF1B\\n\\n\u203B\u529F\u7387\u5F37\u5927\u7684\u4E3B\u8EF8\u99AC\u9054\uFF0C\u5C0D\u5927\u5B54\u5F91\u52A0\u5DE5\u63D0\u4F9B\u5F37\u52C1\u52D5\u529B\uFF1A\\n\\n\u203B\u81EA\u52D5\u5C3A\u5BF8\u7684\u6AA2\u6E2C\u7CFB\u7D71(\u6C23\u96FB\u8F49\u63DB\u91CF\u6E2C)\uFF0C\u5177\u5099\u81EA\u52D5\u6AA2\u67E5\u3001\u904B\u7B97\u3001\u4FEE\u6B63\u529F\u80FD\u3002\",\n
+            \         \"File\": \"Detection_data_for_fully_automatic_honing_machine.pdf\"\n
+            \       }\n      }\n    },\n    \"en\": {\n      \"Video\": {\n        \"0\":
+            {\n          \"Pic\": \"i4.0\u5168\u81EA\u52D5\u9278\u73E9\u6A5F\u904B\u8F49\u8996\u983B\",\n
+            \         \"text\": \"Running\",\n          \"File\": \"Running.mp4\"\n
+            \       }\n      },\n      \"Pdf\": {\n        \"0\": {\n          \"Pic\":
+            \"\u5168\u81EA\u52D5\u9278\u73E9\u6A5F\u8AAA\u660E\u66F8_En\",\n          \"text\":
+            \" \",\n          \"File\": \"Introduction_to_fully_automatic_honing__machine.pdf\"\n
+            \       },\n        \"1\": {\n          \"Pic\": \"\u81EA\u52D5\u9278\u73E9\u6A5F\u7CBE\u5EA6\u6AA2\u6E2C\u6578\u64DA_En\",\n
+            \         \"text\": \" \",\n          \"File\": \"Detection_data_for_fully_automatic_honing__machine.pdf\"\n
+            \       }\n      }\n    }\n  },\n  \"3DButton\": {\n    \"0\": {\n      \"Type\":
+            \"2D\",\n      \"ButtonType\": \"RT\",\n      \"Animation\": \"\",\n      \"ShellOff\":
+            \"N\",\n      \"Linestructure\": \"0_50\",\n      \"Button_en\": \"Unique
+            excellent performance\",\n      \"Button_tw\": \" \u7368\u7279\u7684\u512A\u7570\u6027\u80FD
+            \",\n      \"Title_en\": \"Unique excellent performance\",\n      \"Title_tw\":
+            \"\u7368\u7279\u7684\u512A\u7570\u6027\u80FD\",\n      \"Content_en\":
+            \"Advantage\\n\\nSIRUBA Auto Honing Machine is the ultra precision\\nmachining
+            . The advantage as following:\\n\\n\u203B The machine base made by high
+            precision cast ironmaterial FC300&FCD400 to ensure more stable.\\n\\n\u203B
+            Automatic nitrogen balance system.\\n\\n\u203BUsing THK liner guideway
+            and precision ball screwspline.\\n\\n\u203B Using FANUC controller and
+            SANKYO high precisionrotary platform.\\n\\n\u203BHigh Power motor.\\n\\n\u203B
+            The automatic size detection system (gas electricconversion measurement)
+            has the functions of automaticchecking, calculating and correcting.\",\n
+            \     \"Content_tw\": \"SIRUBA\u81EA\u52D5\u9278\u73E9\u6A5F\u662F\u6700\u5148\u9032\u5167\u5B54\u8D85\u7CBE\u5BC6\u52A0\u5DE5\u9818\u57DF\u7684\u5C16\u7AEF\u8A2D\u5099\uFF0C\\n\u512A\u52E2\u5982\u4E0B\uFF1A\\n\\n\u203B\u5168\u6A5F\u5EA7\u63A1\u7528\u6E1B\u9707\u6027\u512A\u7570\u7684\u9AD8\u7CBE\u5EA6\u9444\u9435\u6750\u8CEAFC250&FCD400\uFF0C\u78BA\u4FDD\u6A5F\u68B0\u7CBE\u5BC6\u52A0\u5DE5\u66F4\u7A69\u5B9A\uFF1B\\n\\n\u203B\u4E3B\u8EF8\u904B\u52D5\u63A1\u7528\u6C2E\u6C23\u5F0F\u7684\u5E73\u8861\u7CFB\u7D71\uFF0C\u9023\u63A5\u842C\u5411\u63A5\u982D\u4F7F\u4E3B\u8EF8\u904B\u52D5\u66F4\u7A69\u5B9A\uFF1B\\n\\n\u203B\u63A1\u7528THK\u9AD8\u5F37\u5EA6\u7684\u5C0E\u8ECC\u548C\u7CBE\u5BC6\u87BA\u687F\u6A5F\u69CB\u5143\u4EF6\uFF0C\u63A1\u7528\u5168\u81EA\u52D5\u5F37\u5236\u96C6\u4E2D\u6F64\u6ED1\u7CFB\u7D71\uFF0C\u4F7F\u6A5F\u5E8A\u4E0D\u6613\u78E8\u640D\uFF0C\u7D93\u4E45\u8010\u7528\u78BA\u4FDD\u6A5F\u68B0\u4F7F\u7528\u58FD\u547D\uFF1B\\n\\n\u203B\u5148\u9032\u87BA\u7D72\u7684\u9632\u9B06\u812B\u8A2D\u8A08\uFF0C\u4F7F\u6A5F\u5E8A\u66F4\u7A69\u5B9A\uFF1B\\n\\n\u203B\u63A1\u7528FANUC\u4F3A\u670D\u63A7\u5236\u7CFB\u7D71\u548C\u65E5\u672CSANKYO\u9AD8\u7CBE\u5EA6\u65CB\u8F49\u5DE5\u4F5C\u81FA\uFF0C\u6EFF\u8DB3\u6A5F\u5E8A\u591A\u54C1\u7A2E\u52A0\u5DE5\u7684\u67D4\u6027\u8981\u6C42\uFF1B\\n\\n\u203B\u529F\u7387\u5F37\u5927\u7684\u4E3B\u8EF8\u99AC\u9054\uFF0C\u5C0D\u5927\u5B54\u5F91\u52A0\u5DE5\u63D0\u4F9B\u5F37\u52C1\u52D5\u529B\uFF1A\\n\\n\u203B\u81EA\u52D5\u5C3A\u5BF8\u7684\u6AA2\u6E2C\u7CFB\u7D71(\u6C23\u96FB\u8F49\u63DB\u91CF\u6E2C)\uFF0C\u5177\u5099\u81EA\u52D5\u6AA2\u67E5\u3001\u904B\u7B97\u3001\u4FEE\u6B63\u529F\u80FD\u3002\",\n
             \     \"Pic_en\": \"\u8A2D\u5099\u898F\u683C\",\n      \"Pic_tw\": \"\u8A2D\u5099\u898F\u683C\",\n
             \     \"File\": {\n        \"tw\": {\n          \"Pdf\": {\n            \"text\":
             \"\",\n            \"file\": \"\"\n          },\n          \"Video\":
@@ -2501,11 +2509,10 @@ MonoBehaviour:
             \"\"\n          }\n        }\n      }\n    },\n    \"1\": {\n      \"Type\":
             \"2D\",\n      \"ButtonType\": \"TR\",\n      \"ShellOff\": \"N\",\n      \"Linestructure\":
             \"120_285\",\n      \"Button_en\": \"Precision indexing plate\",\n      \"Button_tw\":
-            \"\u9AD8\u7CBE\u5EA6\u5206\u5EA6\u76E4\",\n      \"Title_en\": \"Eight
+            \" \u9AD8\u7CBE\u5EA6\u5206\u5EA6\u76E4 \",\n      \"Title_en\": \"Eight
             Processed rotative work table modular\",\n      \"Title_tw\": \"\u516B\u5DE5\u4F4D\u5206\u5EA6\u76E4\",\n
             \     \"Content_en\": \"Using SANKYO Eight Processed rotative work table
-            modular machine tool in detail.\",\n      \"Content_tw\": \"\u4F7F\u7528\u4F7F\u7528SANKYO
-            \u516B\u5DE5\u4F4D\u96FB\u52D5\u5F0F\u56DE\u8F49\u76E4,\u9054\u5230\u6700\u9AD8\u751F\u7522\u6548\u76CA.\",\n
+            modular machine tool in detail.\",\n      \"Content_tw\": \"\u4F7F\u7528SANKYO\u516B\u5DE5\u4F4D\u96FB\u52D5\u5F0F\u56DE\u8F49\u76E4\uFF0C\u9054\u5230\u6700\u9AD8\u751F\u7522\u6548\u76CA\u3002\",\n
             \     \"Pic_en\": \"\u5206\u5EA6\u76E4\",\n      \"Pic_tw\": \"\u5206\u5EA6\u76E4\",\n
             \     \"File\": {\n        \"tw\": {\n          \"Pdf\": {\n            \"text\":
             \"\",\n            \"file\": \"\"\n          },\n          \"Video\":
@@ -2516,7 +2523,7 @@ MonoBehaviour:
             \       }\n      }\n    },\n    \"2\": {\n      \"Type\": \"2D\",\n      \"ButtonType\":
             \"TR\",\n      \"ShellOff\": \"N\",\n      \"Linestructure\": \"157_273\",\n
             \     \"Button_en\": \"Intelligent tool detection system\",\n      \"Button_tw\":
-            \"\u667A\u80FD\u5200\u5177\u6AA2\u6E2C\u7CFB\u7D71\",\n      \"Title_en\":
+            \" \u667A\u80FD\u5200\u5177\u6AA2\u6E2C\u7CFB\u7D71 \",\n      \"Title_en\":
             \"Intelligent tool detection system\",\n      \"Title_tw\": \"\u667A\u80FD\u5200\u5177\u6AA2\u6E2C\u7CFB\u7D71\",\n
             \     \"Content_en\": \"Use infrared to automatically detect whether tools
             need to be replaced.\",\n      \"Content_tw\": \"\u4F7F\u7528\u7D05\u5916\u7DDA\u81EA\u52D5\u6AA2\u6E2C\u5200\u5177\u662F\u5426\u9700\u8981\u66F4\u63DB\",\n
@@ -2530,11 +2537,11 @@ MonoBehaviour:
             \           \"file\": \"\"\n          }\n        }\n      }\n    },\n
             \   \"3\": {\n      \"Type\": \"2D\",\n      \"ButtonType\": \"TL\",\n
             \     \"ShellOff\": \"Y\",\n      \"Linestructure\": \"100_300\",\n      \"Button_en\":
-            \"Automatic lubrication system\",\n      \"Button_tw\": \"\u81EA\u52D5\u6F64\u6ED1\u7CFB\u7D71\",\n
-            \     \"Title_en\": \"Automatic lubrication system\",\n      \"Title_tw\":
+            \"Automatic lubrication system\",\n      \"Button_tw\": \" \u81EA\u52D5\u6F64\u6ED1\u7CFB\u7D71
+            \",\n      \"Title_en\": \"Automatic lubrication system\",\n      \"Title_tw\":
             \"\u81EA\u52D5\u6F64\u6ED1\u7CFB\u7D71\",\n      \"Content_en\": \"Automatic
             control of lubrication system, constant temperature control of lubricating
-            oil temperature.\",\n      \"Content_tw\": \"\u81EA\u52D5\u63A7\u5236\u6F64\u6ED1\u7CFB\u7D71,\u6046\u6EAB\u63A7\u5236\u6F64\u6ED1\u6CB9\u6EAB\u5EA6.\",\n
+            oil temperature.\",\n      \"Content_tw\": \"\u81EA\u52D5\u63A7\u5236\u6F64\u6ED1\u7CFB\u7D71\uFF0C\u6046\u6EAB\u63A7\u5236\u6F64\u6ED1\u6CB9\u6EAB\u5EA6\u3002\",\n
             \     \"Pic_en\": \"\u81EA\u52D5\u6F64\u6ED1\u7CFB\u7D71\",\n      \"Pic_tw\":
             \"\u81EA\u52D5\u6F64\u6ED1\u7CFB\u7D71\",\n      \"File\": {\n        \"tw\":
             {\n          \"Pdf\": {\n            \"text\": \"\",\n            \"file\":
@@ -2545,14 +2552,13 @@ MonoBehaviour:
             \           \"file\": \"\"\n          }\n        }\n      }\n    },\n
             \   \"4\": {\n      \"Type\": \"2D\",\n      \"ButtonType\": \"TR\",\n
             \     \"ShellOff\": \"N\",\n      \"Linestructure\": \"35_180\",\n      \"Button_en\":
-            \"Automatic size detection system\",\n      \"Button_tw\": \"\u81EA\u52D5\u5C3A\u5BF8\u6AA2\u6E2C\u7CFB\u7D71\",\n
-            \     \"Title_en\": \"Automatic size detection system\",\n      \"Title_tw\":
+            \"Automatic size detection system\",\n      \"Button_tw\": \" \u81EA\u52D5\u5C3A\u5BF8\u6AA2\u6E2C\u7CFB\u7D71
+            \",\n      \"Title_en\": \"Automatic size detection system\",\n      \"Title_tw\":
             \"\u81EA\u52D5\u5C3A\u5BF8\u6AA2\u6E2C\u7CFB\u7D71\",\n      \"Content_en\":
             \"After processing, use automatic check, operation and correction function
             to check the size of the intelligent controller.\\n\\nAutomatically display
             the number of defective items, and automatically pick up the defective
-            parts.\",\n      \"Content_tw\": \"\u52A0\u5DE5\u5B8C\u6210\u5F8C,\u4F7F\u7528\u5177\u5099\u81EA\u52D5\u6AA2\u67E5\u3001\u904B\u7B97\u3001\u4FEE\u6B63
-            \u529F\u80FD\u667A\u80FD\u63A7\u5236\u5100\u6AA2\u67E5\u5C3A\u5BF8\\n\\n\u81EA\u52D5\u986F\u793A\u4E0D\u826F\u54C1\u6578\u76EE,\u6A5F\u68B0\u624B\u81EA\u52D5\u593E\u53D6\u81F3\u4E0D\u826F\u54C1\u62CB\u6599\u5340\",\n
+            parts.\",\n      \"Content_tw\": \"\u52A0\u5DE5\u5B8C\u6210\u5F8C\uFF0C\u4F7F\u7528\u5177\u5099\u81EA\u52D5\u6AA2\u67E5\u3001\u904B\u7B97\u3001\u4FEE\u6B63\u529F\u80FD\u7684\u667A\u80FD\u63A7\u5236\u5100\u6AA2\u67E5\u5C3A\u5BF8\\n\\n\u81EA\u52D5\u986F\u793A\u4E0D\u826F\u54C1\u6578\u76EE\uFF0C\u6A5F\u68B0\u624B\u81EA\u52D5\u593E\u53D6\u81F3\u4E0D\u826F\u54C1\u62CB\u6599\u5340\",\n
             \     \"Pic_en\": \"\u81EA\u52D5\u5C3A\u5BF8\u6AA2\u6E2C\u7CFB\u7D71\",\n
             \     \"Pic_tw\": \"\u81EA\u52D5\u5C3A\u5BF8\u6AA2\u6E2C\u7CFB\u7D71\",\n
             \     \"File\": {\n        \"tw\": {\n          \"Pdf\": {\n            \"text\":
@@ -2564,25 +2570,27 @@ MonoBehaviour:
             \       }\n      }\n    },\n    \"5\": {\n      \"Type\": \"Animation\",\n
             \     \"ButtonType\": \"TL\",\n      \"Linestructure\": \"183_317\",\n
             \     \"Button_en\": \"Automatic Loading and Unloading\",\n      \"Button_tw\":
-            \"\u81EA\u52D5\u4E0A\u4E0B\u6599\",\n      \"Animation\": \"Animation01\"\n
+            \" \u81EA\u52D5\u4E0A\u4E0B\u6599 \",\n      \"Animation\": \"Animation01\"\n
             \   },\n    \"6\": {\n      \"Type\": \"Animation\",\n      \"ButtonType\":
             \"TR\",\n      \"Linestructure\": \"300_336\",\n      \"Button_en\": \"machining
-            accuracy\",\n      \"Button_tw\": \"\u52A0\u5DE5\u5DE5\u85DD\",\n      \"Animation\":
+            accuracy\",\n      \"Button_tw\": \" \u52A0\u5DE5\u5DE5\u85DD \",\n      \"Animation\":
             \"Animation02\"\n    },\n    \"7\": {\n      \"Type\": \"Animation\",\n
             \     \"ButtonType\": \"TL\",\n      \"Linestructure\": \"55_185\",\n
             \     \"Button_en\": \"automatic feeding and unloading material device\",\n
-            \     \"Button_tw\": \"\u5168\u81EA\u52D5\u4E0A\u4E0B\u6599\u6A21\u7D44\",\n
-            \     \"Animation\": \"Animation03\"\n    },\n    \"8\": {\n      \"Type\":
+            \     \"Button_tw\": \" \u5168\u81EA\u52D5\u4E0A\u4E0B\u6599\u6A21\u7D44
+            \",\n      \"Animation\": \"Animation03\"\n    },\n    \"8\": {\n      \"Type\":
             \"Animation\",\n      \"ButtonType\": \"TR\",\n      \"Linestructure\":
             \"47_302\",\n      \"Button_en\": \"mechanism design\",\n      \"Button_tw\":
-            \"\u6A5F\u69CB\u8A2D\u8A08\",\n      \"Animation\": \"Animation04\"\n
+            \" \u6A5F\u69CB\u8A2D\u8A08 \",\n      \"Animation\": \"Animation04\"\n
             \   },\n    \"9\": {\n      \"Type\": \"Animation\",\n      \"ButtonType\":
             \"TL\",\n      \"Linestructure\": \"30_267\",\n      \"Button_en\": \"Dismantling\",\n
-            \     \"Button_tw\": \"\u7206\u70B8\u62C6\u89E3\",\n      \"Animation\":
+            \     \"Button_tw\": \" \u7206\u70B8\u62C6\u89E3 \",\n      \"Animation\":
             \"Animation05\"\n    }\n  },\n  \"Linestructure(3D\u6A19\u7C64\u751F\u9577\u7D50\u69CB)\":
             \"\u7B2C\u4E00\u689D\u7DDA\u7684\u65CB\u8F49_\u7B2C\u4E00\u689D\u7DDA\u7684\u9577\u5EA6_\u7B2C\u4E8C\u689D\u7DDA\u7684\u65CB\u8F49_\u7B2C\u4E8C\u689D\u7DDA\u7684\u9577\u5EA6\",\n
-            \ \"Key\": {\n    \"NeedKey?\": \"N\",\n    \"Door\": {\n      \"\u8F38\u5165\u5E33\u865F\":
+            \ \"Key\": {\n    \"NeedKey?\": \"Y\",\n    \"Door\": {\n      \"\u8F38\u5165\u5E33\u865F\":
             \"Password=\u8F38\u5165\u5BC6\u78BC\",\n      \"siruba\": \"Password=29538509\",\n
+            \     \"SIRUBA\": \"Password=29538509\",\n      \"S I R U B A \": \"Password=29538509\",\n
+            \     \"s i r u b a \": \"Password=29538509\",\n      \"Siruba\": \"Password=29538509\",\n
             \     \"whatsnowstudio\": \"Password=72912195\"\n    }\n  }\n}"
         fsmObjectParams: []
         fsmVarParams: []
@@ -2750,7 +2758,7 @@ MonoBehaviour:
     RestartOnEnable: 1
     EnableDebugFlow: 0
     EnableBreakpoints: 1
-    editorFlags: 1
+    editorFlags: 3
     activeStateName: 
     mouseEvents: 0
     handleLevelLoaded: 0
