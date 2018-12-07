@@ -2416,12 +2416,12 @@ MonoBehaviour:
         paramDataPos: 00000000000000000100000001000000000000000100000000000000010000000000000002000000000000000000000001000000
         paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000
     - name: "\u5BEB\u5165Json"
-      description: "#\u57FA\u672C\u6B3E\n#json\u7248\u672C20181119"
+      description: "#\u57FA\u672C\u6B3E\n#json\u7248\u672C20181207"
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 218.48438
-        y: 210.5
+        x: 197.48438
+        y: 217.5
         width: 130.5
         height: 32
       isBreakpoint: 0
@@ -2585,10 +2585,13 @@ MonoBehaviour:
             \   },\n    \"9\": {\n      \"Type\": \"Animation\",\n      \"ButtonType\":
             \"TL\",\n      \"Linestructure\": \"30_267\",\n      \"Button_en\": \"Dismantling\",\n
             \     \"Button_tw\": \" \u7206\u70B8\u62C6\u89E3 \",\n      \"Animation\":
-            \"Animation05\"\n    }\n  },\n  \"Linestructure(3D\u6A19\u7C64\u751F\u9577\u7D50\u69CB)\":
+            \"Animation05\"\n    },\n    \"10\": {\n      \"Type\": \"Animation\",\n
+            \     \"ButtonType\": \"RT\",\n      \"Linestructure\": \"50_0\",\n      \"Button_en\":
+            \"Play All Animation\",\n      \"Button_tw\": \" \u64AD\u653E\u6240\u6709\u52D5\u756B\",\n
+            \     \"Animation\": \"All\"\n    }\n  },\n  \"Linestructure(3D\u6A19\u7C64\u751F\u9577\u7D50\u69CB)\":
             \"\u7B2C\u4E00\u689D\u7DDA\u7684\u65CB\u8F49_\u7B2C\u4E00\u689D\u7DDA\u7684\u9577\u5EA6_\u7B2C\u4E8C\u689D\u7DDA\u7684\u65CB\u8F49_\u7B2C\u4E8C\u689D\u7DDA\u7684\u9577\u5EA6\",\n
             \ \"Key\": {\n    \"NeedKey?\": \"Y\",\n    \"Door\": {\n      \"\u8F38\u5165\u5E33\u865F\":
-            \"Password=\u8F38\u5165\u5BC6\u78BC\",\n      \"siruba\": \"Password=29538509\",\n
+            \"Password=\u8F38\u5165\u5BC6\u78BC\",\n      \"siruba\": \"Password=123456\",\n
             \     \"SIRUBA\": \"Password=29538509\",\n      \"S I R U B A \": \"Password=29538509\",\n
             \     \"s i r u b a \": \"Password=29538509\",\n      \"Siruba\": \"Password=29538509\",\n
             \     \"whatsnowstudio\": \"Password=72912195\"\n    }\n  }\n}"

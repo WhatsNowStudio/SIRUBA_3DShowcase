@@ -95,6 +95,8 @@ ModelImporter:
     100178: Plane002
     100180: I40 SinglePass Logo
     100182: PC
+    100184: "\u64CD\u4F5C\u9762\u677F\u628A\u624B"
+    100186: "\u9278\u73E9\u6A5F\u9580\u628A\u624B"
     400000: Arm_1
     400002: Arm_2
     400004: Arm_3
@@ -187,6 +189,8 @@ ModelImporter:
     400178: Plane002
     400180: I40 SinglePass Logo
     400182: PC
+    400184: "\u64CD\u4F5C\u9762\u677F\u628A\u624B"
+    400186: "\u9278\u73E9\u6A5F\u9580\u628A\u624B"
     2100000: 'Material #280'
     2100002: Silver
     2100004: Blue
@@ -297,6 +301,8 @@ ModelImporter:
     2300176: Plane002
     2300178: I40 SinglePass Logo
     2300180: PC
+    2300182: "\u64CD\u4F5C\u9762\u677F\u628A\u624B"
+    2300184: "\u9278\u73E9\u6A5F\u9580\u628A\u624B"
     3300000: Arm_1
     3300002: Arm_2
     3300004: Arm_3
@@ -388,6 +394,8 @@ ModelImporter:
     3300176: Plane002
     3300178: I40 SinglePass Logo
     3300180: PC
+    3300182: "\u64CD\u4F5C\u9762\u677F\u628A\u624B"
+    3300184: "\u9278\u73E9\u6A5F\u9580\u628A\u624B"
     4300000: Storage_Base
     4300002: Storage_Plate_Base_F
     4300004: Storage_Plate_High
@@ -479,6 +487,8 @@ ModelImporter:
     4300176: Plane002
     4300178: I40 SinglePass Logo
     4300180: PC
+    4300182: "\u9278\u73E9\u6A5F\u9580\u628A\u624B"
+    4300184: "\u64CD\u4F5C\u9762\u677F\u628A\u624B"
   externalObjects: {}
   materials:
     importMaterials: 1
