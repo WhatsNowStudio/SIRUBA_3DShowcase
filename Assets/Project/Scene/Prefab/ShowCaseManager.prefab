@@ -14838,7 +14838,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 010101
-        actionIsOpen: 000101
+        actionIsOpen: 000000
         actionStartIndex: 000000000f00000016000000
         actionHashCodes: d9ade60315a3be0576d0e601
         unityObjectParams: []
@@ -17610,8 +17610,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 56.679688
-        y: 136.16406
+        x: 64.67969
+        y: 116.16406
         width: 100
         height: 16
       isBreakpoint: 0
@@ -17770,8 +17770,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 244
-        y: 433.07812
+        x: 260
+        y: 513.0781
         width: 100
         height: 16
       isBreakpoint: 0
@@ -17867,8 +17867,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 235.5
-        y: 130
+        x: 243.5
+        y: 110
         width: 104.5
         height: 32
       isBreakpoint: 0
@@ -17879,7 +17879,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: "\u53D6\u5F97Json"
+        toState: "\u4F9D\u5E8F\u88FD\u4F5C\u6309\u9215"
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -18171,9 +18171,9 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 238.5
-        y: 301
-        width: 107
+        x: 254.5
+        y: 381
+        width: 125
         height: 48
       isBreakpoint: 0
       isSequence: 0
@@ -18197,6 +18197,7 @@ MonoBehaviour:
         colorIndex: 0
       actionData:
         actionNames:
+        - HutongGames.PlayMaker.Actions.GetFsmString
         - HutongGames.PlayMaker.Actions.SetStringValue
         - HutongGames.PlayMaker.Actions.ConvertIntToString
         - HutongGames.PlayMaker.Actions.JsonGetObjectProperties
@@ -18206,13 +18207,22 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 01010101
-        actionIsOpen: 01000101
-        actionStartIndex: 0000000003000000070000000e000000
-        actionHashCodes: c030f103404de80415a3be050c0e5502
+        - 
+        actionEnabled: 0101010101
+        actionIsOpen: 0100000000
+        actionStartIndex: 0000000005000000080000000c00000013000000
+        actionHashCodes: 52221a02c030f103404de80415a3be050c0e5502
         unityObjectParams: []
         fsmGameObjectParams: []
-        fsmOwnerDefaultParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: GObj/MainManager&API
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
@@ -18220,6 +18230,24 @@ MonoBehaviour:
         fsmPropertyParams: []
         layoutOptionParams: []
         fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: Json
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: String/Json/3DButton
+        - useVariable: 1
+          name: String/Json/3DButtonAll
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
         - useVariable: 1
           name: String/Json/Target
           tooltip: 
@@ -18321,15 +18349,20 @@ MonoBehaviour:
         - 
         - Done
         - Go
-        byteData: 000000
+        byteData: 00000000
         arrayParamSizes: 0100000001000000
         arrayParamTypes:
         - HutongGames.PlayMaker.FsmString
         - HutongGames.PlayMaker.FsmVar
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 12000000120000000100000010000000120000001200000001000000120000000c000000120000000c000000270000001700000017000000120000001200000017000000170000001100000001000000
+        paramDataType: 140000001200000012000000120000000100000012000000120000000100000010000000120000001200000001000000120000000c000000120000000c000000270000001700000017000000120000001200000017000000170000001100000001000000
         paramName:
+        - gameObject
+        - fsmName
+        - variableName
+        - storeValue
+        - everyFrame
         - stringVariable
         - stringValue
         - everyFrame
@@ -18350,15 +18383,15 @@ MonoBehaviour:
         - notEqualEvent
         - storeResult
         - everyFrame
-        paramDataPos: 0000000001000000000000000000000002000000030000000100000004000000000000000500000001000000000000000000000001000000060000000700000002000000030000000000000002000000
-        paramByteDataSize: 0000000000000000010000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
+        paramDataPos: 00000000000000000100000002000000000000000300000004000000010000000000000005000000060000000200000007000000000000000800000001000000000000000000000001000000090000000a00000002000000030000000000000003000000
+        paramByteDataSize: 00000000000000000000000000000000010000000000000000000000010000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
     - name: "\u88FD\u4F5C\u6309\u9215---"
       description: "#\u53D6\u6A21\u578B\u88E1\u6309\u9215\u5C0D\u61C9\n#\u5224\u65B7\u54EA\u7A2E\u6309\u9215\n#0=RT\n#1=LT\n#2=TR\n#3=TL"
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 478.5
-        y: 100
+        x: 494.5
+        y: 180
         width: 116
         height: 80
       isBreakpoint: 0
@@ -18608,77 +18641,81 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 000000000000000001000000000000000100000000000000000000000100000002000000000000000400000002000000000000000300000001000000000000000000000001000000040000000200000005000000060000000700000008000000030000000200000003000000040000000500000005000000
         paramByteDataSize: 000000000000000000000000000000000000000000000000000000000000000000000000040000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000
-    - name: "\u53D6\u5F97Json"
-      description: 
+    - name: "\u547C\u53EB\u66F4\u65B0Json"
+      description: "#\u7B49\u5F85\u592A\u4E45\u9AD4\u9A57\u4E0D\u597D\n#\u5148\u62FF\u6389\u53CA\u6642\u66F4\u65B0"
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 239
+        x: 244
         y: 244.03906
-        width: 100
-        height: 32
+        width: 122
+        height: 16
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
-      transitions:
-      - fsmEvent:
-          name: FINISHED
-          isSystemEvent: 1
-          isGlobal: 0
-        toState: "\u4F9D\u5E8F\u88FD\u4F5C\u6309\u9215"
-        linkStyle: 0
-        linkConstraint: 0
-        colorIndex: 0
+      transitions: []
       actionData:
         actionNames:
-        - HutongGames.PlayMaker.Actions.GetFsmString
+        - HutongGames.PlayMaker.Actions.SendEvent
         customNames:
         - 
         actionEnabled: 01
         actionIsOpen: 01
         actionStartIndex: 00000000
-        actionHashCodes: 52221a02
+        actionHashCodes: 5e69bb04
         unityObjectParams: []
         fsmGameObjectParams: []
-        fsmOwnerDefaultParams:
-        - ownerOption: 1
-          gameObject:
-            useVariable: 1
-            name: GObj/MainManager&API
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
+        fsmOwnerDefaultParams: []
         animationCurveParams: []
         functionCallParams: []
         fsmTemplateControlParams: []
-        fsmEventTargetParams: []
+        fsmEventTargetParams:
+        - target: 2
+          excludeSelf:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          gameObject:
+            ownerOption: 1
+            gameObject:
+              useVariable: 1
+              name: GObj/MainManager&API
+              tooltip: 
+              showInInspector: 0
+              networkSync: 0
+              value: {fileID: 0}
+          fsmName:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: Json
+          sendToChildren:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          fsmComponent: {fileID: 0}
         fsmPropertyParams: []
         layoutOptionParams: []
-        fsmStringParams:
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: Json
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: String/Json/3DButton
-        - useVariable: 1
-          name: String/Json/3DButtonAll
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 
+        fsmStringParams: []
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
-        fsmFloatParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
@@ -18686,28 +18723,28 @@ MonoBehaviour:
         fsmColorParams: []
         fsmRectParams: []
         fsmQuaternionParams: []
-        stringParams: []
+        stringParams:
+        - Updata
         byteData: 00
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1400000012000000120000001200000001000000
+        paramDataType: 1f000000170000000f00000001000000
         paramName:
-        - gameObject
-        - fsmName
-        - variableName
-        - storeValue
+        - eventTarget
+        - sendEvent
+        - delay
         - everyFrame
-        paramDataPos: 0000000000000000010000000200000000000000
-        paramByteDataSize: 0000000000000000000000000000000001000000
+        paramDataPos: 00000000000000000000000000000000
+        paramByteDataSize: 00000000000000000000000001000000
     - name: "\u8A2D\u5B9A\u6587\u5B57"
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 488
-        y: 350.03906
+        x: 504
+        y: 430.03906
         width: 100
         height: 32
       isBreakpoint: 0
@@ -18913,8 +18950,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 489
-        y: 742.09375
+        x: 505
+        y: 822.09375
         width: 100
         height: 32
       isBreakpoint: 0
@@ -18990,8 +19027,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 484
-        y: 582
+        x: 500
+        y: 662
         width: 102
         height: 32
       isBreakpoint: 0
@@ -19260,8 +19297,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 495
-        y: 678
+        x: 511
+        y: 758
         width: 100
         height: 32
       isBreakpoint: 0
@@ -19437,8 +19474,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 489
-        y: 304
+        x: 505
+        y: 384
         width: 100
         height: 32
       isBreakpoint: 0
@@ -19629,8 +19666,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 743
-        y: 118.96094
+        x: 759
+        y: 198.96094
         width: 100
         height: 32
       isBreakpoint: 0
@@ -19726,8 +19763,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 743
-        y: 244.46094
+        x: 759
+        y: 324.46094
         width: 100
         height: 32
       isBreakpoint: 0
@@ -19823,8 +19860,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 744
-        y: 201.46094
+        x: 760
+        y: 281.46094
         width: 100
         height: 32
       isBreakpoint: 0
@@ -19920,8 +19957,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 744
-        y: 160.46094
+        x: 760
+        y: 240.46094
         width: 100
         height: 32
       isBreakpoint: 0
@@ -20017,8 +20054,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 486
-        y: 408
+        x: 502
+        y: 488
         width: 102
         height: 48
       isBreakpoint: 0
@@ -20221,8 +20258,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 707
-        y: 423
+        x: 723
+        y: 503
         width: 102
         height: 32
       isBreakpoint: 0
@@ -20371,8 +20408,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 717
-        y: 498
+        x: 733
+        y: 578
         width: 100
         height: 32
       isBreakpoint: 0
@@ -20458,8 +20495,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 484
-        y: 486
+        x: 500
+        y: 566
         width: 100
         height: 48
       isBreakpoint: 0
@@ -20574,6 +20611,12 @@ MonoBehaviour:
     - name: Process
       isSystemEvent: 0
       isGlobal: 1
+    - name: Process_Done
+      isSystemEvent: 0
+      isGlobal: 1
+    - name: Updata
+      isSystemEvent: 0
+      isGlobal: 1
     - name: Y
       isSystemEvent: 0
       isGlobal: 0
@@ -20583,6 +20626,14 @@ MonoBehaviour:
         isSystemEvent: 0
         isGlobal: 1
       toState: "\u53D6\u5F973D\u5B9A\u4F4D"
+      linkStyle: 0
+      linkConstraint: 0
+      colorIndex: 0
+    - fsmEvent:
+        name: Process_Done
+        isSystemEvent: 0
+        isGlobal: 1
+      toState: "\u4F9D\u5E8F\u88FD\u4F5C\u6309\u9215"
       linkStyle: 0
       linkConstraint: 0
       colorIndex: 0
